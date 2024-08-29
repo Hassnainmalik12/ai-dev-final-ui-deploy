@@ -1,0 +1,172 @@
+@import "../../values/fonts";
+
+
+.animated-button {
+  width: 200px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  height: 55px;
+  background-color: black;
+  transition: color 0.4s;
+  font-size: 22px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.animated-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2ecc71;
+  z-index: -1;
+  transition: transform 0.4s;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.animated-button:hover {
+  color: white;
+  animation: shakeX 0.05s ease-in-out; /* Apply shake animation on hover */
+
+}
+
+.animated-button:hover::before {
+  transform: scaleX(1);
+}
+
+.animated-button img {
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+.lets-connect{
+  h1{
+    @include font_Gridular_Regular;
+    font-weight: bold;
+    font-size: 110px;
+
+  }
+}
+
+@media (max-width: 600px) {
+
+  .animated-button-height-res{
+    height: 40vh;
+  }
+  .animated-btn-inner{
+    height: 90%;
+    .lets-connect{
+      height: 60%;
+      width: 80%;
+      h1{
+        font-size: 30px;
+      }
+    }
+  }
+  .animated-button{
+      padding: 1px 15px;
+    gap: 9px;
+
+    .image-res{
+      height: 20px;
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+  p{
+    font-size: 16px !important;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+
+
+  .animated-button-height-res{
+    height: 30vh;
+  }
+  .animated-btn-inner{
+    height: 90%;
+    .lets-connect{
+      height: 60%;
+      width: 90%;
+
+      h1{
+        font-size: 30px;
+      }
+    }
+  }
+  .animated-button-div-res{
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .animated-button{
+    height: 50px;
+    width: 300px;
+    gap: 10px;
+    .image-res{
+      height: 20px;
+      width: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+  p{
+    font-size: 12px !important;
+  }
+
+}
+
+@media  (min-width: 601px) and (max-width: 1024px) {
+
+
+  .animated-button-height-res{
+    height: 40vh;
+  }
+  .animated-btn-inner{
+    height: 90%;
+    .lets-connect{
+      height: 60%;
+      width: 90%;
+
+      h1{
+        font-size: 45px;
+      }
+    }
+  }
+  .animated-button-div-res{
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .animated-button{
+    height: 60px;
+    width: 260px;
+    gap: 20px;
+    .image-res{
+      height: 30px;
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+  p{
+    font-size: 18px !important;
+  }
+
+}

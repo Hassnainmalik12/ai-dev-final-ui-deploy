@@ -1,0 +1,59 @@
+{
+  "name": "ai-dev",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.2",
+    "animate.css": "^4.1.1",
+    "flowbite": "^2.4.1",
+    "flowbite-react": "^0.10.1",
+    "framer-motion": "^11.3.21",
+    "gh-pages": "^6.1.1",
+    "owl.carousel": "^2.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-multi-carousel": "^2.8.5",
+    "react-owl-carousel": "^2.3.3",
+    "react-redux": "^8.1.3",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "react-typed": "^2.0.12",
+    "react-typing-effect": "^2.0.5",
+    "sass": "^1.77.8",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}

@@ -1,0 +1,254 @@
+.below-gallery-section{
+  .top-h1{
+    font-size: 20.8px;
+    color: #2ecc71;
+  }
+  .main-heading{
+    font-size: 73.2px;
+    word-spacing: 5px;
+    color: white;
+  }
+  .main-heading-green-text{
+    color: #2ecc71;
+    font-size: 73.2px;
+    word-spacing: 5px;
+  }
+  .below-gallery-desc-section{
+    font-size: 35px;
+    color: white;
+  }
+}
+.below-gallery-desc-section2{
+  font-size: 35px;
+  color: white;
+
+}
+.button{
+  font-size: 25px ;
+  color: white;
+    border: 3px solid #2ecc71;
+  border-radius: 20px;
+
+  &:hover {
+    background: #2ecc71;
+  }
+}
+.lower-button-desc{
+  font-size: 30px;
+
+}
+.last-desc{
+  font-size: 30px;
+
+}
+.above-slider-text{
+  h1{
+    font-size: 35px;
+    color: #2ecc71;
+  }
+  span{
+    color: white;
+  }
+}
+
+@media (max-width: 600px){
+  .below-gallery-section-height-res{
+    height: 220vh;
+  }
+  .below-gallery-section-res{
+    width: 100%;
+    height: 220vh;
+    //background-color: greenyellow;
+  }
+  .main-heading-res{
+    font-size: 25px !important;
+
+  }
+  .main-heading-green-text{
+    font-size: 30px !important;
+
+  }
+  .below-gallery-section-res-inner{
+    height: 300px;
+  }
+  .below-gallery-desc-section{
+    font-size: 22px !important;
+  }
+  .below-gallery-section-second-res{
+    height: 75vh;
+  }
+  .below-gallery-desc-section2{
+    font-size: 22px !important;
+
+  }
+  .below-gallery-button-res{
+    height: 85%;
+    font-size: 15px ;
+    padding: 10px 5px;
+    width: 33% !important;
+  }
+  .lower-button-desc{
+    margin-top: 10px;
+    font-size: 19px;
+    width: 100%;
+  }
+  .below-gallery-section-last-text-res{
+    height: 150px;
+  }
+  .last-desc{
+    font-size: 22px;
+  }
+  .last-desc-btn-res{
+    height: 650px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .below-gallery-section-height-res{
+    //margin-top: 20px;
+    height: 220vh;
+    //background: #1c64f2 !important;
+  }
+  .below-gallery-section-res{
+    width: 100%;
+    height: 180vh;
+  }
+  .main-heading-res{
+    font-size: 25px !important;
+
+  }
+  .main-heading-green-text{
+    font-size: 30px !important;
+
+  }
+  .below-gallery-section-res-inner{
+    height: 350px;
+
+  }
+  .below-gallery-desc-section{
+    font-size: 22px !important;
+  }
+  .below-gallery-section-second-res{
+    height: 95vh;
+
+  }
+  .below-gallery-desc-section2{
+    font-size: 22px !important;
+
+  }
+  .below-gallery-button-res{
+    height: 85%;
+    font-size: 13px ;
+    padding: 5px 5px;
+    width: 32% !important;
+
+  }
+  .lower-button-desc{
+    margin-top: 10px;
+    font-size: 19px;
+    width: 100%;
+  }
+  .above-slider-text{
+    h1{
+      font-size: 20px !important;
+
+    }
+
+  }
+  .below-gallery-section-last-text-res{
+    height: 150px;
+  }
+  .last-desc{
+    font-size: 22px;
+  }
+  .last-desc-btn-res{
+    height: 650px;
+  }
+  .logo-slider-res{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //background: red;
+  }
+
+}
+@media  (min-width: 601px) and (max-width: 1024px) {
+  .below-gallery-section-height-res{
+    height: 180vh;
+  }
+  .below-gallery-section-res{
+    width: 100%;
+    height: 180vh;
+    //background-color: greenyellow;
+  }
+  .main-heading-res{
+    font-size: 40px !important;
+
+  }
+  .main-heading-green-text{
+    font-size: 40px !important;
+
+  }
+  .top-h1{
+    font-size: 25px !important;
+  }
+  .below-gallery-section-res-inner{
+    height: 350px;
+
+  }
+  .below-gallery-desc-section{
+    font-size: 28px !important;
+  }
+  .below-gallery-section-second-res{
+    height: 85vh;
+
+  }
+  .below-gallery-desc-section2{
+    font-size: 28px !important;
+
+  }
+  .below-gallery-button-line-res{
+    height: 120px;
+  }
+  .below-gallery-button-res{
+    height: 85%;
+    font-size: 18px ;
+    padding: 1px 5px;
+    width: 32% !important;
+
+  }
+  .lower-button-desc{
+    margin-top: 10px;
+    font-size: 26px;
+    width: 100%;
+  }
+  .above-slider-text{
+    h1{
+      margin-top: 190px;
+      font-size: 30px;
+
+    }
+
+  }
+  .below-gallery-section-last-text-res{
+    height: 70px;
+  }
+  .last-desc{
+    font-size: 26px;
+  }
+  .last-desc-btn-res{
+    height: 50vh !important;
+    .button{
+      padding: 30px 50px !important;
+      font-size: 20px !important;
+
+    }
+  }
+  .logo-slider-res{
+    margin-top: 50px;
+    height: 200px;
+  }
+
+}

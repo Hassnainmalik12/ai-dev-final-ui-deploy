@@ -1,0 +1,290 @@
+.tokonomics-text{
+  color: #2ecc71;
+  font-size: 40px;
+}
+.percentage-section {
+  background: linear-gradient(104deg, #1f1f1f 11.2%, #303030 34.8%);
+  border-radius: 20px;
+  height: 120px;
+  h1{
+    color: #2ecc71;
+    font-weight: bold;
+    font-size: 45px;
+  }
+  h6{
+    color: white;
+  }
+}
+.percentage-section-with-border {
+  background: linear-gradient(104deg, #1f1f1f 11.2%, #303030 34.8%);
+  border-radius: 20px;
+  height: 230px;
+  border-left: 1px solid #2ecc71;
+  border-bottom: 1px solid #2ecc71;
+  h1{
+    color: #2ecc71;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  h6{
+    color: white;
+    font-size: 20px;
+  }
+}
+.copy-text-border{
+  border: 1px solid #2ecc71;
+h1{
+  font-size: 16px;
+  &:hover{
+    color: #72df72;
+  }
+}
+}
+
+
+@media (max-width: 600px) {
+  .copy-code{
+font-size: 12px;
+  }
+
+  .tokonomics-height-res{
+    height: 140vh;
+    //background-color: red;
+  }
+  .tokonomics-first-section-height-res{
+    height:25%;
+    //background-color: #1c64f2;
+  }
+  .tokonomics-first-section-width-res{
+    width: 80%;
+    .tokonomics-text{
+      font-size: 30px;
+    }
+
+  }
+  .tokonomics-button-per-res{
+    width: 23%;
+    padding: 10px 10px;
+    background-color: #6b7280;
+    h1{
+      font-size: 30px;
+    }
+  }
+  .tokonomics-second-sec-res{
+    height: 30%;
+  }
+  .tokonmics-second-btn-sec-res{
+    width: 90%;
+    height: 60%;
+  }
+  .percentage-section-with-border{
+    width: 23%;
+    height: 150px;
+    h1{
+      font-size: 20px;
+    }
+    h6{
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .contract-renounced-res{
+    font-size: 20px !important;
+    color: red;
+  }
+.copy-text-border{
+  h1{
+  font-size: 12px;
+}
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 599px) {
+
+  .copy-code{
+  font-size: 12px;
+  }
+
+  .tokonomics-height-res{
+    height: 100vh;
+  }
+  .tokonomics-first-section-height-res{
+    height:25%;
+  }
+  .tokonomics-first-section-width-res{
+    width: 80%;
+    .tokonomics-text{
+      font-size: 25px;
+    }
+
+  }
+  .tokonomics-button-per-res{
+    width: 23%;
+    height: 100px;
+    padding: 2px 10px;
+    background-color: #6b7280 !important;
+    h1{
+      font-size: 25px;
+    }
+    h6{
+      text-align: center;
+    }
+  }
+  .tokonomics-second-sec-res{
+    height: 30%;
+  }
+  .tokonmics-second-btn-sec-res{
+    width: 95%;
+    height: 50%;
+  }
+  .percentage-section-with-border{
+    width: 24%;
+    height: 130px;
+    h1{
+      font-size: 14px;
+    }
+    h6{
+      font-size: 10px;
+      text-align: center;
+    }
+  }
+  .extra-small-text{
+    font-size: 9px !important;
+  }
+  .contract-renounced-res{
+    font-size: 14px !important;
+    color: red;
+  }
+.copy-text-border{
+  h1{
+  font-size: 12px;
+}
+}
+  .contract-adres-res{
+    margin-top: 30px;
+  }
+  .parent-div{
+    display: block;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  .child-div-copy{
+    height: 55px;
+    width: 330px;
+    margin: 0px auto;
+    padding: 0 0;
+  }
+  .child-div{
+    height: 55px;
+    width: 150px;
+    gap: 20px;
+    display: flex;
+    margin-top: 10px;
+  }
+
+}
+
+@media  (min-width: 601px) and (max-width: 1024px) {
+  .tokonomics-height-res{
+    height: 70vh;
+  }
+
+  .copy-code{
+  font-size: 12px;
+  }
+
+
+  .tokonomics-first-section-height-res{
+    height:30%;
+  }
+  .tokonomics-first-section-width-res{
+    width: 65%;
+    .tokonomics-text{
+      font-size: 30px;
+    }
+
+  }
+  .tokonomics-button-per-res{
+    width: 23%;
+    height: 100px;
+    padding: 2px 10px;
+    background-color: #6b7280 !important;
+    h1{
+      font-size: 28px;
+    }
+    h6{
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  .tokonomics-second-sec-res{
+    height: 35%;
+  }
+  .tokonmics-second-btn-sec-res{
+    width: 85%;
+    height: 50%;
+  }
+  .percentage-section-with-border{
+    width: 24%;
+    height: 150px;
+    h1{
+      font-size: 20px;
+    }
+    h6{
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .extra-small-text{
+    font-size: 13px !important;
+  }
+  //.contract-renounced-res{
+  //  font-size: 14px !important;
+  //  color: red;
+  //}
+.copy-text-border{
+  h1{
+  font-size: 12px;
+}
+  .contract-address{
+    font-size: 28px !important;
+    text-align: center;
+  }
+
+}
+  .parent-div{
+    display: block;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  .child-div-copy{
+    height: 55px;
+    width: 420px;
+    margin: 0px auto;
+    padding: 0 0;
+    .copy-code{
+      font-size: 14px;
+    }
+  }
+  .child-div{
+    height: 55px;
+    width: 170px;
+    gap: 20px;
+    display: flex;
+    margin-top: 10px;
+  }
+  .contract-address-line{
+    width: 90%;
+    h1{
+      font-size: 20px;
+    }
+  }
+  .three-buttons{
+    text-align: center;
+    margin-top: 5px;
+    justify-content: space-evenly;
+  }
+
+}

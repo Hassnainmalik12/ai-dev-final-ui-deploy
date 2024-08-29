@@ -1,0 +1,225 @@
+.trade-marquee-area{
+  height: 60%;
+}
+.marquee-text-area{
+  height: 100%;
+  .custom-marquee{
+    h1{
+      font-size: 180px;
+      font-family: "Anton", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      letter-spacing: 3px;
+    }
+
+  }
+
+}
+
+.rotating-image {
+  //transform: rotate(-5deg); /* Initial rotation */
+  transition: transform 0.4s ease; /* Smooth transition */
+}
+
+.rotating-image:hover {
+  transform: rotate(-45deg); /* Rotate to 90 degrees on hover */
+}
+.trade-last-contact{
+  h1{
+    font-size: 22px;
+  }
+}
+.trade-section-last-border{
+  border-bottom: 2px solid black;
+}
+
+@media (max-width: 600px) {
+
+  .trade-marquee-area{
+    height: 40%;
+    background-color: #6b7280;
+  }
+  .marquee-text-area{
+    .custom-marquee{
+      font-size: 70px !important;
+      font-family: "Anton", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 3px;
+
+    }
+    img{
+      top: -30px;
+    }
+  }
+  .social-icons-width{
+    width: 50%;
+    .icon-height{
+      height: 50%;
+    }
+
+  }
+  .trade-logo-width{
+    width: 30%;
+  }
+  .trade-section-last-width{
+    width: 40%;
+  }
+  .trade-last-contact{
+    height: 100%;
+    width: 50%;
+    p{
+      font-size: 14px !important;
+      text-align: center;
+    }
+  }
+  .trade-contact-sec{
+     width: 90%;
+      font-size: 16px !important;
+
+  }
+  .copyright-text{
+    font-size: 20px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .trade-height-res{
+    height: 75vh;
+  }
+  .trade-marquee-area{
+    height: 40%;
+    //background: #1c64f2 !important;
+  }
+  .custom-font{
+    font-size: 30px !important;
+    line-height: 30px !important;
+  }
+  .marquee-text-area{
+    height: 50vh;
+    .rotating-image{
+      height: 200px !important;
+      top: 65px;
+    }
+    .custom-marquee{
+      height: 90px;
+  h1{
+  font-size: 50px !important;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  letter-spacing: 3px;
+  }
+
+    }
+    img{
+      top: -30px;
+    }
+  }
+  .social-icons-width{
+    width: 60%;
+    .icon-height{
+      height: 50%;
+      gap: 10px;
+    }
+
+  }
+  .trade-logo-width{
+    width: 30%;
+  }
+  .trade-section-last-width{
+    width: 40%;
+  }
+  .trade-last-contact{
+    height: 100%;
+    width: 80%;
+    p{
+      font-size: 14px !important;
+      text-align: center;
+    }
+  }
+  .trade-contact-sec{
+     width: 90%;
+      font-size: 16px !important;
+
+  }
+  .copyright-text{
+    font-size: 20px;
+  }
+  .rotating-image{
+    height: 100px;
+    width: 100px;
+    top: 120px !important;
+  }
+  .trade-section-last-border{
+    height: 80%;
+  }
+  .copyright{
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+
+@media  (min-width: 601px) and (max-width: 1024px) {
+.trade-height-res{
+  height: 70vh;
+}
+  .trade-marquee-area{
+    height: 50%;
+  }
+  .marquee-text-area{
+    .custom-marquee{
+      height: 120px;
+      h1{
+        font-size: 100px !important;
+        font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 3px;
+
+      }
+
+    }
+    img{
+      top: -30px;
+      height: 100px !important;
+    }
+  }
+  .social-icons-width{
+    width: 60%;
+    .icon-height{
+      height: 50%;
+      gap: 10px;
+    }
+
+  }
+  .trade-logo-width{
+    width: 30%;
+  }
+  .trade-section-last-width{
+    width: 40%;
+  }
+  .trade-last-contact{
+    height: 100%;
+    width: 80%;
+    p{
+      font-size: 24px !important;
+      text-align: center;
+    }
+  }
+  .trade-contact-sec{
+
+     width: 90%;
+      font-size: 24px !important;
+
+  }
+  .copyright-text{
+    font-size: 26px;
+  }
+
+}

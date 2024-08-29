@@ -1,0 +1,114 @@
+@import "../values/fonts";
+
+.gallery-para{
+  font-size: 1em;
+  color: white;
+
+}
+.gallery-heading{
+  @include font_Gridular_Regular;
+  font-size: 112px;
+  color: white;
+  font-weight: bold;
+  line-height: 0.9;
+
+}
+.gallery-heading1{
+  @include font_Gridular_Regular;
+  font-size: 112px;
+  color: white;
+  line-height: 0.9;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+
+  .gallery-heading{
+    font-size: 40px;
+    color: white;
+    margin-top: -5px;
+
+  }
+  .gallery-heading1{
+    font-size: 40px;
+    color: white;
+    margin-top: -20px;
+  }
+
+  .gallery-text-area-res{
+    align-items: flex-start;
+  }
+  .gallery-text-area-inner-res{
+    justify-content: space-around;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+.avatar-area-res{
+  width: 100%;
+  justify-content: center;
+}
+  .gallery-para{
+    text-align: center;
+  }
+
+  .gallery-heading{
+    font-size: 30px;
+    color: white;
+    margin-top: -5px;
+
+  }
+  .gallery-heading1{
+    font-size: 30px;
+    color: white;
+    margin-top: -20px;
+  }
+
+  .gallery-text-area-res{
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery-text-area-inner-res{
+    justify-content: space-around;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 1023px) {
+  .inverted-border{
+    height: 60vh;
+  }
+.avatar-area-res{
+  height: 40%;
+  width: 100%;
+  justify-content: center;
+}
+  .gallery-para{
+    font-size: 22px !important;
+    text-align: center;
+  }
+
+  .gallery-heading{
+    font-size: 60px;
+    color: white;
+    margin-top: -5px;
+    line-height: 0.5;
+
+  }
+  .gallery-heading1{
+    font-size: 60px;
+    color: white;
+    line-height: 0.5;
+    //margin-top: -20px;
+  }
+
+  .gallery-text-area-res{
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery-text-area-inner-res{
+    justify-content: space-around;
+  }
+
+}

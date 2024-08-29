@@ -1,0 +1,153 @@
+.research-and-development-heading{
+  h1{
+    font-size: 50px;
+  }
+  p{
+    padding: 0 40px;
+    span{
+      color: #2ecc71;
+    }
+  }
+
+}
+.current-projects{
+  h1{
+    font-size: 22px;
+  }
+  strong{
+    color: #2ecc71;
+    font-size: 18px;
+  }
+  p{
+    font-size: 16px;
+  }
+
+}
+/* YourCustomStyles.css */
+.custom-bullet-color li{
+  list-style-type: none;
+}
+
+.custom-bullet-color li::before {
+  content: "•"; /* This creates a custom bullet */
+  color: #2ecc71; /* Sets the color of the bullet to white */
+  display: inline-block; /* Ensures the bullet aligns well with the text */
+  width: 1em; /* Adds some space between the bullet and the text */
+  font-size: 20px;
+
+}
+@media (max-width: 600px) {
+
+  .research-and-development-inner-res{
+    width: 90%;
+  }
+  .research-and-development-heading{
+    width: 90%;
+    h1{
+      font-size: 30px;
+    }
+  }
+  .trade-li-section-res{
+    width: 90%;
+    height: 90%;
+  }
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 599px) {
+.research-and-development-res{
+  height: 170vh;
+}
+  .research-and-development-inner-res{
+    width: 90%;
+    height: 160vh;
+  }
+  .trade-dev-res{
+    height: 40%;
+  }
+  .research-and-development-heading{
+    margin-top: 10px;
+    width: 90%;
+    text-align: center;
+    h1{
+      font-size: 30px;
+    }
+  }
+  .trade-li-section-res{
+    width: 90%;
+    height: 90%;
+    .current-projects{
+      height: 55vh;
+      padding: 0 10px;
+    }
+    .our-goals{
+      height: 60vh;
+      padding: 0 10px;
+    }
+  }
+
+}
+
+
+
+
+
+@media  (min-width: 601px) and (max-width: 1024px) {
+.research-and-development-res{
+  height: 100vh;
+}
+  .research-and-development-inner-res{
+    width: 90%;
+    height: 90vh;
+  }
+  .trade-dev-res{
+    height: 40%;
+  }
+  .research-and-development-heading{
+    margin-top: 10px;
+    width: 90%;
+    text-align: center;
+    h1{
+      font-size: 40px;
+    }
+    p{
+      padding: 0 70px;
+      font-size:  20px;
+    }
+  }
+  .trade-li-section-res{
+    width: 90%;
+    height: 90%;
+    .current-projects{
+      height: 45%;
+      padding: 0 10px;
+      h1{
+        font-size: 26px;
+      }
+      ul li {
+        font-size: 18px;
+
+      }
+    }
+    .our-goals{
+      height: 45%;
+      padding: 0 10px;
+      h1{
+        font-size: 26px;
+      }
+      ul li {
+        font-size: 18px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+
+}
+
+
+

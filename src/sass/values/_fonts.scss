@@ -1,0 +1,9 @@
+@font-face {
+  $url: "fonts/Gridular-Regular.otf";
+  font-family:Gridular-Regular ;
+  src: url($url);
+}
+
+@mixin font_Gridular_Regular  {
+  font-family: Gridular-Regular, sans-serif;
+}
