@@ -46,11 +46,17 @@
 
 @media (min-width: 320px) and (max-width: 599px) {
 .avatar-area-res{
+  align-items: center;
   width: 100%;
   justify-content: center;
+  .avatar-area-inner{
+    width: 90%;
+  }
 }
   .gallery-para{
+    font-size: 12px !important;
     text-align: center;
+    padding: 0 10px;
   }
 
   .gallery-heading{
