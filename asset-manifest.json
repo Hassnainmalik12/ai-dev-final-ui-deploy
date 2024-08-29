@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ai-dev-final-ui-deploy/static/css/main.d388049a.css",
+    "main.js": "/ai-dev-final-ui-deploy/static/js/main.1c3c6c18.js",
+    "static/media/Ai Dev Bot Pad.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pad.fbf6d66fbbff33716f83.gif",
+    "static/media/Ai Dev Bot Pack Desktop.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pack Desktop.65dd0d058bc92a315946.gif",
+    "static/media/Ai Dev Bot Uncensored Ai.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Uncensored Ai.fbdd31c5130a4b839262.gif",
+    "static/media/Ai Dev Bot Website Code.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Website Code.4b7d160e5fae61d96350.gif",
+    "static/media/Ai Dev Bot Meme Generator.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Meme Generator.ec405fe1804d9a6d6763.gif",
+    "static/media/Ai Dev Bot Code.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Code.eeb07c8ef8c8bd0f9049.gif",
+    "static/media/Ai Dev Bot Target.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Target.3ebcd305726fd85cb6c8.gif",
+    "static/media/Ai Dev Bot Price Prediction.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Price Prediction.9a82cf473589cef633cd.gif",
+    "static/media/Ai Dev Bot Face Swap.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Face Swap.05628dbfd25a816c3101.gif",
+    "static/media/Ai Dev Bot Voice AI.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Voice AI.dcf79d06516ffe7710a4.gif",
+    "static/media/Ai Dev Bot Rocket.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Rocket.0164f862a6f572fd94ae.gif",
+    "static/media/Ai Dev Bot Random.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Random.dabe165dcfac7319ace5.gif",
+    "static/media/preloader.gif": "/ai-dev-final-ui-deploy/static/media/preloader.55fcfb14ea64dfd1cb59.gif",
+    "static/media/Chatbot.png": "/ai-dev-final-ui-deploy/static/media/Chatbot.9602c5d7faaafe825b34.png",
+    "static/media/Gridular-Regular.otf": "/ai-dev-final-ui-deploy/static/media/Gridular-Regular.bc95c4915f576d594c01.otf",
+    "static/media/arrow.png": "/ai-dev-final-ui-deploy/static/media/arrow.08760e3100a95974e52b.png",
+    "static/media/Splash 2.png": "/ai-dev-final-ui-deploy/static/media/Splash 2.2f194a850710c6514a71.png",
+    "static/media/logo.png": "/ai-dev-final-ui-deploy/static/media/logo.c30be48ff6fb6bb01bfb.png",
+    "static/media/background.png": "/ai-dev-final-ui-deploy/static/media/background.0f123594a62e3f251d1a.png",
+    "static/media/slick.svg": "/ai-dev-final-ui-deploy/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ai-dev-final-ui-deploy/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/burgerMenu.webp": "/ai-dev-final-ui-deploy/static/media/burgerMenu.d21197e3a17d41ed1a67.webp",
+    "static/media/slick.ttf": "/ai-dev-final-ui-deploy/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ai-dev-final-ui-deploy/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ai-dev-final-ui-deploy/index.html",
+    "main.d388049a.css.map": "/ai-dev-final-ui-deploy/static/css/main.d388049a.css.map",
+    "main.1c3c6c18.js.map": "/ai-dev-final-ui-deploy/static/js/main.1c3c6c18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d388049a.css",
+    "static/js/main.1c3c6c18.js"
+  ]
+}
