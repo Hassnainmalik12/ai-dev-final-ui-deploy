@@ -11,28 +11,38 @@ const Tokonomics = () => {
                 <div className={"tokonomics-first-section-width-res h-[90%] py-3 w-[30%]  flex flex-col justify-between items-center"}>
                     <h1 className={"tokonomics-text font-bold capitalize"}>tokenomics</h1>
                     <div className={"h-auto w-full  flex justify-between"}>
-                        <div className={"tokonomics-button-per-res percentage-section  w-[20%] justify-center items-center flex flex-col"}>
-                            <h1 >10m</h1>
-                            <h6 className={"text-sm"}>token supply</h6>
-                        </div>
-                        <div className={"tokonomics-button-per-res percentage-section  w-[20%] justify-center items-center flex flex-col"}>
-                            <h1 >5%</h1>
-                            <h6 className={"text-sm"}>buy/sell tax</h6>
-                        </div>
-                        <div className={"tokonomics-button-per-res percentage-section  w-[20%] justify-center items-center flex flex-col"}>
-                            <h1 >3%</h1>
-                            <h6 className={"text-sm"}>Max Wallet</h6>
-                        </div>
-                        <div className={"tokonomics-button-per-res percentage-section  w-[20%] justify-center items-center flex flex-col"}>
-                            <h1 >0%</h1>
-                            <h6 className={"text-sm"}>Transfer</h6>
-                        </div>
+                        {/*<div className={"flex w-[70%] bg-red-500"}>*/}
+                            <div
+                                className={"tokonomics-button-per-res percentage-section  w-[20%] justify-center items-center flex flex-col"}>
+                                <h1>10m</h1>
+                                <h6 className={"text-sm"}>token supply</h6>
+                            </div>
+                            <div
+                                className={"tokonomics-button-per-res percentage-section  w-[20%] justify-center items-center flex flex-col"}>
+                                <h1>5%</h1>
+                                <h6 className={"text-sm"}>buy/sell tax</h6>
+                            </div>
+
+                        {/*</div>*/}
+                        {/*<div className={"flex w-[50%]"}>*/}
+                            <div
+                                className={"tokonomics-button-per-res percentage-section  w-[20%] justify-center items-center flex flex-col"}>
+                                <h1>3%</h1>
+                                <h6 className={"text-sm"}>Max Wallet</h6>
+                            </div>
+                            <div
+                                className={"tokonomics-button-per-res percentage-section  w-[20%] justify-center items-center flex flex-col"}>
+                                <h1>0%</h1>
+                                <h6 className={"text-sm"}>Transfer</h6>
+                            </div>
+                        {/*</div>*/}
                     </div>
 
                 </div>
             </div>
             <div className={"tokonomics-second-sec-res h-[50%]  w-full flex justify-center items-center"}>
-                <div className={"tokonmics-second-btn-sec-res h-[70%] w-[65%] flex flex-col justify-between items-center"}>
+                <div
+                    className={"tokonmics-second-btn-sec-res h-[70%] w-[65%] flex flex-col justify-between items-center"}>
                     <div className={"h-auto  w-full  flex justify-between items-center"}>
                         <div className={"percentage-section-with-border  w-[24%]  flex justify-center items-center"}>
                             <h1 className={"text-center capitalize contract-renounced-res"}>contract renounced  </h1>

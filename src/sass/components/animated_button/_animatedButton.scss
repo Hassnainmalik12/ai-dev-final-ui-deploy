@@ -95,7 +95,7 @@
 
 
   .animated-button-height-res{
-    height: 30vh;
+    height: 50vh;
   }
   .animated-btn-inner{
     height: 90%;
@@ -109,16 +109,21 @@
     }
   }
   .animated-button-div-res{
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 5px;
+  }
+  .lets-connect{
+    //justify-content: center;
   }
   .animated-button{
     height: 50px;
-    width: 300px;
+    width: 250px;
     gap: 10px;
     .image-res{
-      height: 20px;
-      width: 20px;
+      height: 25px;
+      width: 25px;
       display: flex;
       justify-content: center;
       align-items: center;

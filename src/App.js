@@ -1,8 +1,8 @@
 import React, {useEffect, useRef, useState} from 'react';
 import SplashScreen from "./views/screens/Splash_Screen/SplashScreen";
 import './index.css';
-import 'animate.css'; // Import animate.css
- import Typing from "react-typing-effect";
+import 'animate.css';
+import Typing from "react-typing-effect";
 import burger from "./images/burgerMenu.webp";
 import Sidebar from "./views/components/sidebar/Sidebar";
 import cross from "./images/cross.png";
