@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ai-dev-final-ui-deploy/static/css/main.f93f28cf.css",
+    "main.css": "/ai-dev-final-ui-deploy/static/css/main.37e6bf32.css",
     "main.js": "/ai-dev-final-ui-deploy/static/js/main.f91d2ab9.js",
     "static/media/Ai Dev Bot Pad.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pad.fbf6d66fbbff33716f83.gif",
     "static/media/Ai Dev Bot Pack Desktop.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pack Desktop.65dd0d058bc92a315946.gif",
@@ -30,11 +30,11 @@
     "static/media/slick.ttf": "/ai-dev-final-ui-deploy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ai-dev-final-ui-deploy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ai-dev-final-ui-deploy/index.html",
-    "main.f93f28cf.css.map": "/ai-dev-final-ui-deploy/static/css/main.f93f28cf.css.map",
+    "main.37e6bf32.css.map": "/ai-dev-final-ui-deploy/static/css/main.37e6bf32.css.map",
     "main.f91d2ab9.js.map": "/ai-dev-final-ui-deploy/static/js/main.f91d2ab9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f93f28cf.css",
+    "static/css/main.37e6bf32.css",
     "static/js/main.f91d2ab9.js"
   ]
 }
