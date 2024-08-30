@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import preloader from '../../../images/preloader.gif';
-import arrowDown from '../../../images/white-arrow-down.png';
+import arrowDown from '../../../images/white-arrow-down .png';
 
 const ChatBot = ({ onClose }) => {
     const [messages, setMessages] = useState([
