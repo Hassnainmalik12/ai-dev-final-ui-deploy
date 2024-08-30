@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ai-dev-final-ui-deploy/static/css/main.ccdfb21a.css",
-    "main.js": "/ai-dev-final-ui-deploy/static/js/main.b3c8af34.js",
+    "main.css": "/ai-dev-final-ui-deploy/static/css/main.f93f28cf.css",
+    "main.js": "/ai-dev-final-ui-deploy/static/js/main.f91d2ab9.js",
     "static/media/Ai Dev Bot Pad.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pad.fbf6d66fbbff33716f83.gif",
     "static/media/Ai Dev Bot Pack Desktop.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pack Desktop.65dd0d058bc92a315946.gif",
     "static/media/Ai Dev Bot Uncensored Ai.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Uncensored Ai.fbdd31c5130a4b839262.gif",
@@ -14,10 +14,13 @@
     "static/media/Ai Dev Bot Voice AI.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Voice AI.dcf79d06516ffe7710a4.gif",
     "static/media/Ai Dev Bot Rocket.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Rocket.0164f862a6f572fd94ae.gif",
     "static/media/Ai Dev Bot Random.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Random.dabe165dcfac7319ace5.gif",
+    "static/media/Ai Dev Bot Pack Mobile.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pack Mobile.e012bb476c8c2e5bde85.gif",
     "static/media/preloader.gif": "/ai-dev-final-ui-deploy/static/media/preloader.55fcfb14ea64dfd1cb59.gif",
     "static/media/Chatbot.png": "/ai-dev-final-ui-deploy/static/media/Chatbot.9602c5d7faaafe825b34.png",
     "static/media/Gridular-Regular.otf": "/ai-dev-final-ui-deploy/static/media/Gridular-Regular.bc95c4915f576d594c01.otf",
+    "static/media/white-arrow-down .png": "/ai-dev-final-ui-deploy/static/media/white-arrow-down .e3673649dd83ac85f08e.png",
     "static/media/arrow.png": "/ai-dev-final-ui-deploy/static/media/arrow.08760e3100a95974e52b.png",
+    "static/media/tickIcon.png": "/ai-dev-final-ui-deploy/static/media/tickIcon.3bbbb9230e764cd4e6c6.png",
     "static/media/Splash 2.png": "/ai-dev-final-ui-deploy/static/media/Splash 2.2f194a850710c6514a71.png",
     "static/media/logo.png": "/ai-dev-final-ui-deploy/static/media/logo.c30be48ff6fb6bb01bfb.png",
     "static/media/background.png": "/ai-dev-final-ui-deploy/static/media/background.0f123594a62e3f251d1a.png",
@@ -27,11 +30,11 @@
     "static/media/slick.ttf": "/ai-dev-final-ui-deploy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ai-dev-final-ui-deploy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ai-dev-final-ui-deploy/index.html",
-    "main.ccdfb21a.css.map": "/ai-dev-final-ui-deploy/static/css/main.ccdfb21a.css.map",
-    "main.b3c8af34.js.map": "/ai-dev-final-ui-deploy/static/js/main.b3c8af34.js.map"
+    "main.f93f28cf.css.map": "/ai-dev-final-ui-deploy/static/css/main.f93f28cf.css.map",
+    "main.f91d2ab9.js.map": "/ai-dev-final-ui-deploy/static/js/main.f91d2ab9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccdfb21a.css",
-    "static/js/main.b3c8af34.js"
+    "static/css/main.f93f28cf.css",
+    "static/js/main.f91d2ab9.js"
   ]
 }
