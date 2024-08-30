@@ -45,7 +45,11 @@
 }
 
 @media (min-width: 320px) and (max-width: 599px) {
+  .devbot-height-res{
+    height: 70vh;
+  }
 .avatar-area-res{
+  height: 50%;
   align-items: center;
   width: 100%;
   justify-content: center;
@@ -62,16 +66,19 @@
   .gallery-heading{
     font-size: 30px;
     color: white;
+    //line-height: 0.1 !important;
     margin-top: -5px;
 
   }
   .gallery-heading1{
     font-size: 30px;
     color: white;
+    //line-height: 0.1 !important
     margin-top: -20px;
   }
 
   .gallery-text-area-res{
+    height: 50%;
     align-items: center;
     justify-content: center;
   }

@@ -1,14 +1,51 @@
 .chatbot-input{
   input{
-    outline: none;
-    border: none;
+    outline: none !important;
+    border: none !important;
     background-color: transparent;
+    input:focus{
+      outline: #2ecc71 !important;
+      border: #2ecc71 !important;
+
+    }
     ::placeholder{
       color: #6b7280;
     }
   }
+
 }
-.chatbot-input input:focus {
-  outline: none; /* Ensure no outline on focus */
-  box-shadow: none; /* Remove any box-shadow that might be causing the border effect */
+
+/* General container styling */
+.chatbot-div-inside {
+  position: relative;
+  margin-right: 200px;
+}
+
+/* Header styling */
+.bg-gray-800 {
+  background-color: #333;
+}
+
+/* Message styling */
+.bg-gray-700 {
+  background-color: #4a4a4a;
+}
+
+.bg-blue-500 {
+  background-color: #3c3c3c;
+}
+
+/* Input and button styling */
+.bg-gray-600 {
+  background-color: #555;
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .chatbot-div-inside {
+    width: 300px;
+    height: 400px !important;
+    position: relative;
+    margin-right: 50px;
+  }
+
 }

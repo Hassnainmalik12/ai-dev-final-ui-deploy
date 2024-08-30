@@ -38,9 +38,11 @@ function App() {
         const toggleDiv = () => {
             setIsOpen(!isOpen);
         };
-        const toggleDiv1 = () => {
+    const toggleDiv1 = () => {
+        if (window.innerWidth <= 768) {
             setIsOpen1(!isOpen1);
-        };
+        }
+    };
         const toggleDiv2 = () => {
             setIsOpen2(!isOpen2);
         };
@@ -124,10 +126,10 @@ function App() {
                     <div className="mai  w-screen h-screen " ref={sectiontopRef}>
                         {/*burger button*/}
                         <div
-                            className="custom-height-7vh  w-full flex  items-center cursor-pointer fixed "
-                            onClick={toggleDiv1}
+                            className="custom-height-7vh  z-10 w-full flex  items-center  fixed "
+
                         >
-                            <div className="w-16 h-16 mt- flex hidden items-center justify-center ">
+                            <div className="w-16 h-16 mt- flex hidden items-center justify-center cursor-pointer" onClick={toggleDiv1}>
                                 <img src={burger} alt="Burger Menu" className="h-8"/>
                             </div>
                         </div>
@@ -336,7 +338,7 @@ function App() {
                                     <img src={Chatbot} alt="Chatbot" className="chatbot-img h-max w-24"/>
                                     {isOpen && (
                                         <div
-                                            className="chatbot-div  toggle-div absolute bottom-full  mb-[calc(-19%)] text-white flex items-center justify-center "
+                                            className="chatbot-div  toggle-div absolute bottom-full  mb-[calc(-17%)] text-white flex items-center justify-center "
                                             style={{width: '900px', height: '500px'}}
                                             onClick={(e) => e.stopPropagation()}
                                         >
@@ -425,7 +427,7 @@ function App() {
 
 
                         </div>
-                        <div className="inverted-border grey-color-bg custom-height-80  w-full bg-gray-800"
+                        <div className="devbot-height-res grey-color-bg custom-height-90vh  w-full bg-gray-800"
                              ref={section2Ref}>
                             <DevBotGifSection/>
                         </div>

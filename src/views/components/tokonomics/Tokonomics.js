@@ -1,10 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import  copy from '../../../images/tabler-copy.png'
 import  ethscan from '../../../images/btn-ic-ethscan.png'
 import  dex from '../../../images/btn-ic-dex.png'
 import  uniswap from '../../../images/btn-ic-uniswap.png'
+import  tickIcon from '../../../images/tickIcon.png'
 
 const Tokonomics = () => {
+    const [isCopied, setIsCopied] = useState(false);
+
+    const copyCodeToClipboard = () => {
+        const copyText = "0x9Cf0ED013e67DB12cA3AF8e7506fE401aA14dAd6";
+        navigator.clipboard.writeText(copyText).then(() => {
+            setIsCopied(true);
+            setTimeout(() => {
+                setIsCopied(false); // Reset the icon after 2 seconds
+            }, 300);
+        }).catch(err => {
+            console.error("Failed to copy: ", err);
+        });
+    };
     return (
         <div className={" h-full w-full flex flex-col "}>
             <div className={"tokonomics-first-section-height-res h-[50%]  w-full flex justify-center items-center"}>
@@ -83,7 +97,11 @@ const Tokonomics = () => {
                 <div className={"parent-div  h-auto w-full flex justify-center items-center gap-5"}>
                     <div className={" copy-text-border child-div-copy  flex gap-4 h-16 w-auto bg-gray-800    justify-center items-center px-5 rounded-full"}>
                         <h1 className={"text-white copy-code hover:cursor-pointer"}>0x9Cf0ED013e67DB12cA3AF8e7506fE401aA14dAd6</h1>
-                        <img src={copy} className={"hover:cursor-pointer"} alt=""/>
+                        <img src={isCopied ? tickIcon : copy}
+                             className={"hover:cursor-pointer h-6"} alt=""
+                             onClick={copyCodeToClipboard}
+                             // style={{mixBlendMode:'color-dodge'}}
+                        />
                     </div>
 
                     <div className={"three-buttons flex justify-between gap-2 h-auto"}>
