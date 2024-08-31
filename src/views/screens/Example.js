@@ -47,7 +47,7 @@ const HorizontalScrollCarousel = () => {
 
 
     return (
-        <section ref={targetRef} className=" relative h-[200vh]  example-height" style={{background:"#1f1f1f"}}>
+        <section ref={targetRef} className=" relative h-[300vh]  example-height" style={{background:"#1f1f1f"}}>
             {/*is line me flex-col*/}
             <div className="position-sticky sticky top-0 flex h-screen items-center" style={{ transition: "10s ease in out" }}>
             {/*is line me flex-col*/}
@@ -67,7 +67,7 @@ const Card = ({card}) => {
         <div
             key={card.id}
             className={`card-res-vertical-height group relative 
-                   h-[700px] w-[1150px]`}
+                   h-[750px] w-[1250px]`}
             style={{
                 margin:  "-9px",
                 border: "1px solid grey",
@@ -75,8 +75,9 @@ const Card = ({card}) => {
         >
 {/*is line ko flex-col*/}
                 <div className="property-for-card-res absolute inset-0 z-1 px-10 flex">
-                    <div className="gallery-avatar-area-resp h-full w-1/2 p-8 text-2xl font-black uppercase text-white flex justify-center items-center">
-                        <img src={card.url} alt="" />
+                    <div className="gallery-avatar-area-resp h-full w-1/2  p-8 text-2xl font-black uppercase text-white flex justify-center items-center">
+
+                        <img src={card.url} alt="" className={"w-3/4 "}/>
                     </div>
 
                     <div className="gallery-heading-res h-full w-48  text-2xl uppercase text-white flex flex-col justify-center items-center py-5">

@@ -3,7 +3,7 @@ import icStarPurple from '../../../images/ic-star-purple.png'
 
 const LowerTierSection = () => {
     return (
-        <div className={"lower-tier-section-inner-res  w-[70%] h-[90%] flex flex-col justify-center gap-2"}>
+        <div className={"lower-tier-section-inner-res  w-[60%] h-[90%] flex flex-col justify-center gap-2"}>
             <h1 className={"lower-tier-text-res text-white px-10 text-xl"}>* Tier 1, 2 and 3</h1>
             <div className={"h-12 w-full flex gap-2"}>
                 <div className={"lower-tier-img-res h-12 w-12  flex justify-center items-center"}>

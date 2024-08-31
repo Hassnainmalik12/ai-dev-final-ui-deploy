@@ -14,7 +14,7 @@ import image10 from '../../../images/Ai Dev Bot Random.gif';
 import image11 from '../../../images/Ai Dev Bot Rocket.gif';
 const TierSection = () => {
     return (
-        <div className={"tier-section-main  custom-height-px-1600   w-[70%] flex"} >
+        <div className={"tier-section-main  custom-height-px-1600   w-[60%] flex"} >
             {/*left section 40%*/}
             <div className={"h-full w-[40%] flex flex-col gap-2"}>
 
@@ -173,12 +173,12 @@ const TierSection = () => {
             </div>
 
             {/*right section 60%*/}
-            <div className={"h-full w-[60%] flex  justify-between items-start"}>
+            <div className={"h-full w-[60%] flex  justify-evenly items-start"}>
                 <div className={"right-section-cols-res w-[18%] h-full  relative flex flex-col gap-2"}>
                     <div
                         className={"head-left-feature-section bg-yellow-500 w-full h-44 absolute rounded-lg flex justify-center flex-col items-center"}
-                        style={{top: '-90px'}}>
-                        <h1 className={"tier-text-head-res custom-text-green  font-bold text-3xl uppercase"}>*FREE</h1>
+                        style={{top: '-80px'}}>
+                        <h1 className={"tier-text-head-res custom-text-green  font-bold text-3xl uppercase"}><span className={"text-white font-normal"}>*</span>FREE</h1>
                         <h1 className={"tier-text-head-des-res custom-text-green  text-sm "}>Trial 28 Days</h1>
                     </div>
                     <div className={"h-24 mt- w-full "}>
@@ -284,8 +284,8 @@ const TierSection = () => {
                 {/*second col of 60%                */}
                 <div className={"right-section-cols-res w-[18%] h-full  relative flex flex-col gap-2"}>
                     <div
-                        className={"head-left-feature-section w-full h-36 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
-                        style={{top: '-90px'}}>
+                        className={"head-left-feature-section w-full tier-box h-36 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
+                        style={{top: '-80px'}}>
                         <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 1</h1>
 
                     </div>
@@ -394,8 +394,8 @@ const TierSection = () => {
 
                 <div className={"right-section-cols-res w-[18%] h-full relative flex flex-col gap-2"}>
                     <div
-                        className={"head-left-feature-section w-full h-36 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
-                        style={{top: '-90px'}}>
+                        className={"head-left-feature-section w-full h-36 tier-box  absolute rounded-lg flex justify-center flex-col items-center"}
+                        style={{top: '-80px'}}>
                         <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 2</h1>
 
                     </div>
@@ -491,9 +491,9 @@ const TierSection = () => {
 
                 <div className={"right-section-cols-res w-[18%] h-full  relative flex flex-col gap-2"}>
                     <div
-                        className={"head-left-feature-section w-full h-36 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
-                        style={{top: '-90px'}}>
-                        <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 2</h1>
+                        className={"head-left-feature-section w-full tier-box h-28 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
+                        style={{top: '-80px'}}>
+                        <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 3</h1>
 
                     </div>
                         <div className={"extra-height h-24 w-full"} style={{paddingTop:'-10px'}}></div>

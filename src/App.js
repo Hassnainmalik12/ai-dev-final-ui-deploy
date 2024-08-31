@@ -29,7 +29,6 @@ function App() {
 
         // const [isErasing, setIsErasing] = useState(false);
         const [isVisible, setIsVisible] = useState(false);
-        console.log(isVisible);
         const [isOpen, setIsOpen] = useState(false);
         const [isOpen1, setIsOpen1] = useState(false);
         const [isOpen2, setIsOpen2] = useState(false);
@@ -123,13 +122,14 @@ function App() {
                 {isSplashVisible ? (
                     <SplashScreen />
                 ) : (
-                    <div className="mai  w-screen h-screen " ref={sectiontopRef}>
+                    <div className="main  w-screen h-screen " ref={sectiontopRef}>
                         {/*burger button*/}
                         <div
                             className="custom-height-7vh  z-10 w-full flex  items-center  fixed "
 
                         >
-                            <div className="w-16 h-16 mt- flex hidden items-center justify-center cursor-pointer" onClick={toggleDiv1}>
+                            <div className="w-16 h-16 mt- flex hidden items-center justify-center cursor-pointer"
+                                 onClick={toggleDiv1}>
                                 <img src={burger} alt="Burger Menu" className="h-8"/>
                             </div>
                         </div>
@@ -149,8 +149,8 @@ function App() {
                         )}
 
                         <div className="logo-res-full main-color w-full custom-height-22vh flex items-center">
-                            <div className="logo-res  custom-width-20  h-full flex justify-center items-center">
-                                <div className="logo w-5/6 h-3/6   flex justify-center items-center ">
+                            <div className="logo-res  custom-width-15  h-full flex justify-center items-center">
+                                <div className="logo w-[75%] h-[50%]   flex justify-center items-center ">
                                     <img src={logoIcon} alt="Logo" className={"h-[80%]"}/>
                                 </div>
                             </div>
@@ -197,10 +197,10 @@ function App() {
 
                                 <div
 
-                                    className="ai-dev-main-title custom-height-70 w-full flex flex-col justify-center items-center">
+                                    className="ai-dev-main-title custom-height-90  w-full flex flex-col justify-center items-center">
                                     <div
-                                        className={"ai-dev-div w-full h-[100%]  flex-col flex justify-center items-center"}>
-                                        <p className="Ai-dev-text">
+                                        className={"ai-dev-div w-full h-[90%]  flex-col flex justify-center items-center"}>
+                                        <p className="Ai-dev-text" style={{color:'#1f1f1f'}}>
                                             <span>A</span>
                                             <span>I</span>
                                         </p>
@@ -224,7 +224,7 @@ function App() {
         </span>
                                     </p>
 
-                                    <p className="additional-text pl-1">All directly through your Telegram!</p>
+                                    <h1 className="additional-text  pl-1">All directly through your Telegram!</h1>
                                 </p>
 
 
@@ -235,14 +235,14 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bottom-bar  main-color bottom-bar-res  w-full custom-height-15vh flex">
-                            <div className="custom-width-15 h-full flex justify-center items-center">
+                        <div className="bottom-bar  main-color bottom-bar-res bg-green-300 w-full custom-height-15vh flex">
+                            <div className="custom-width-25vw h-full flex justify-center items-center" >
                                 <div className="w-1/5 h-1/5 flex justify-center items-center">
                                     {/* Optionally include any content here */}
                                 </div>
                             </div>
-                            <div className="custom-width-70  h-full flex justify-center items-center relative">
-                                <div className="navbar fixed h-20 w-3/6 max-w-3/6 max-h-1/3 bg-black p-2 rounded-lg">
+                            <div className="custom-width-50vw  h-full flex justify-center items-center relative" >
+                                <div className="navbar fixed h-18 w-[45%]  bg-black p-2 rounded-lg">
                                     <div
                                         className="navbar-inner w-full h-full flex justify-between items-center px-4 bg-black py-1">
                                         <div className="h-12 flex justify-center items-center px-2">
@@ -254,8 +254,9 @@ function App() {
                                         <div
                                             className="nav-text-div h-full flex justify-center items-center px-2 hover:cursor-pointer"
                                             onClick={() => scrollToSection(section1Ref)}>
-                                            <p className="nav-text text-white uppercase">01. explore</p>
-                                            <div className="hover-content p-2 flex flex-col items-center justify-between ">
+                                            <p className="nav-text text-white uppercase py-2">01. explore</p>
+                                            <div
+                                                className="hover-content p-2 flex flex-col items-center justify-between ">
 
                                                 <h1 className={"text-white uppercase  mt-2"}>explore 1</h1>
                                                 <h1 className={"text-white uppercase text-center"}>explore 1</h1>
@@ -271,8 +272,9 @@ function App() {
                                         <div
                                             className="nav-text-div h-full flex justify-center items-center px-2 hover:cursor-pointer"
                                             onClick={() => scrollToSection(section2Ref)}>
-                                            <p className="nav-text text-white uppercase">02. ai bots</p>
-                                            <div className="hover-content p-2 flex flex-col items-center justify-between ">
+                                            <p className="nav-text text-white uppercase py-2">02. ai bots</p>
+                                            <div
+                                                className="hover-content p-2 flex flex-col items-center justify-between ">
 
                                                 <h1 className={"text-white uppercase  mt-2"}>explore 1</h1>
                                                 <h1 className={"text-white uppercase text-center"}>explore 1</h1>
@@ -287,8 +289,9 @@ function App() {
                                         <div
                                             className="nav-text-div h-full flex justify-center items-center px-2 hover:cursor-pointer"
                                             onClick={() => scrollToSection(section3Ref)}>
-                                            <p className="nav-text text-white uppercase">03. docs</p>
-                                            <div className="hover-content p-2 flex flex-col items-center justify-between ">
+                                            <p className="nav-text text-white uppercase py-2">03. docs</p>
+                                            <div
+                                                className="hover-content p-2 flex flex-col items-center justify-between ">
 
                                                 <h1 className={"text-white uppercase  mt-2"}>explore 1</h1>
                                                 <h1 className={"text-white uppercase text-center"}>explore 1</h1>
@@ -303,8 +306,9 @@ function App() {
                                         <div
                                             className="nav-text-div h-full flex justify-center items-center px-2 hover:cursor-pointer"
                                             onClick={() => scrollToSection(section4Ref)}>
-                                            <p className="nav-text text-white uppercase">04. connect</p>
-                                            <div className="hover-content p-2 flex flex-col items-center justify-between ">
+                                            <p className="nav-text text-white uppercase py-2">04. connect</p>
+                                            <div
+                                                className="hover-content p-2 flex flex-col items-center justify-between ">
 
                                                 <h1 className={"text-white uppercase  mt-2"}>explore 1</h1>
                                                 <h1 className={"text-white uppercase text-center"}>explore 1</h1>
@@ -319,8 +323,9 @@ function App() {
                                         <div
                                             className="nav-text-div h-full flex justify-center items-center px-2 hover:cursor-pointer"
                                             onClick={() => scrollToSection(section5Ref)}>
-                                            <p className="nav-text text-white uppercase">05. trade</p>
-                                            <div className="hover-content p-2 flex flex-col items-center justify-between ">
+                                            <p className="nav-text text-white uppercase py-2">05. trade</p>
+                                            <div
+                                                className="hover-content p-2 flex flex-col items-center justify-between ">
 
                                                 <h1 className={"text-white uppercase  mt-2"}>explore 1</h1>
                                                 <h1 className={"text-white uppercase text-center"}>explore 1</h1>
@@ -332,21 +337,24 @@ function App() {
                                     </div>
                                 </div>
                             </div>
-                            {/*<div className="chatbot-div-main custom-width-15 h-full flex justify-center items-center relative ">*/}
-                            {/*    <div className="fixed w-2/6 h-2/6 z-10 flex justify-center items-center hover:cursor-pointer"*/}
-                            {/*         onClick={toggleDiv}>*/}
-                            {/*        <img src={Chatbot} alt="Chatbot" className="chatbot-img h-max w-24"/>*/}
-                            {/*        {isOpen && (*/}
-                            {/*            <div*/}
-                            {/*                className="chatbot-div  toggle-div absolute bottom-full  mb-[calc(-17%)] text-white flex items-center justify-center "*/}
-                            {/*                style={{width: '900px', height: '500px'}}*/}
-                            {/*                onClick={(e) => e.stopPropagation()}*/}
-                            {/*            >*/}
-                            {/*                <ChatBot onClose={toggleDiv}/>*/}
-                            {/*            </div>*/}
-                            {/*        )}*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
+                            <div className="chatbot-div-main custom-width-25vw h-full flex justify-center items-center relative ">
+                                <div className="fixed w-96 h-16 z-10 flex justify-end items-center "
+                                     >
+                                    {/*<div className={"w-96 h-full flex justify-end"}>*/}
+                                        <img src={Chatbot} alt="Chatbot" className="chatbot-img h-max w-24 hover:cursor-pointer" onClick={toggleDiv}/>
+                                        {isOpen && (
+                                            <div
+                                                className="chatbot-div  toggle-div absolute bottom-full  mb-[calc(6%)] text-white flex items-center justify-end "
+                                                style={{width: '600px', height: '500px'}}
+                                                onClick={(e) => e.stopPropagation()}
+                                            >
+                                                <ChatBot onClose={toggleDiv}/>
+                                            </div>
+                                        )}
+                                    {/*</div>*/}
+
+                                </div>
+                            </div>
 
                         </div>
 
@@ -368,7 +376,8 @@ function App() {
                                 ref={ref}
                             >
                                 <p className={`tracking-wider transition-opacity animate__animated ${isVisible ? 'animate__slideInUp animate__slow' : ''}`}>
-                                    <span>AI Dev </span> aims to provide an AI ecosystem for crypto users, all accessible
+                                    <span>AI Dev </span> aims to provide an AI ecosystem for crypto users, all
+                                    accessible
                                     through
                                     the convenience of a Telegram account. Effortlessly create stunning websites with AI
                                     image
@@ -394,12 +403,13 @@ function App() {
 
 
                         <div
-                            className={"marquee-text-area-upper custom-height-70  w-full main-color flex flex-col justify-center items-center"}>
+                            className={"marquee-text-area-upper custom-height-90vh  w-full main-color flex flex-col justify-center items-center"}>
 
                             <marquee className="custom-marquee" behavior="scroll" width="100%" direction="left"
-                                     height="240px"
+
                                      scrollamount="13">
-                                <h1 style={{display: "inline-block", marginRight: "50px"}}> Website AI x Sniper AI x Token
+                                <h1 style={{display: "inline-block", marginRight: "50px"}}> Website AI x Sniper AI x
+                                    Token
                                     Deployer
                                     x AI face Swap x Voice
                                     AI x
@@ -411,9 +421,10 @@ function App() {
                                     MEME Generator x Uncensored AI</h2>
                             </marquee>
                             <marquee className="custom-marquee" behavior="scroll" width="100%" direction="right"
-                                     height="   240px"
+
                                      scrollamount="13">
-                                <h2 style={{display: "inline-block", marginRight: "50px"}}> Website AI x Sniper AI x Token
+                                <h2 style={{display: "inline-block", marginRight: "50px"}}> Website AI x Sniper AI x
+                                    Token
                                     Deployer
                                     x AI face Swap x Voice
                                     AI x
@@ -425,6 +436,14 @@ function App() {
                                     MEME Generator x Uncensored AI</h1>
                             </marquee>
 
+
+                        </div>
+
+                        <div className={"inverted-image h-16 w-full main-color"}>
+
+                            <img
+                                src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82e_gallery-border-top.svg"
+                                className={"gallery-border"} alt=""/>
 
                         </div>
                         <div className="devbot-height-res grey-color-bg custom-height-90vh  w-full bg-gray-800"
@@ -439,7 +458,7 @@ function App() {
                         {/*below gallery section*/}
 
                         <div
-                            className={"custom-height-px-2000 grey-color-bg below-gallery-section-height-res  w-full bg-gray-500"}
+                            className={"custom-height-px-2000 grey-color-bg below-gallery-section-height-res  w-full bg-gray-5"}
                             ref={section3Ref}>
                             <BelowGallerySection/>
 
@@ -453,7 +472,9 @@ function App() {
                             className={"lower-tier-section-res grey-color-bg h-36 w-full bg-gray-800 flex justify-center items-center"}>
                             <LowerTierSection/>
                         </div>
-                        <div className={"roadmap-height-res grey-color-bg custom-height-px-700  w-full px-3 bg-gray-500"}>
+
+                        <div
+                            className={"roadmap-height-res grey-color-bg custom-height-px-700  w-full px-3 bg-gray-500"}>
                             <RoadmapSlider/>
                         </div>
                         <div className={"tokonomics-height-res custom-height-90 w-full grey-color-bg"}>
@@ -461,7 +482,15 @@ function App() {
                             <Tokonomics/>
 
                         </div>
-                        <div className={"research-and-development-res main-color custom-height-px-1100 w-full bg-gray-400"}>
+                        <div className={"inverted-image h-32 w-full main-color"}>
+
+                            <img
+                                src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82f_gallery-border-bottom.svg"
+                                className={"gallery-border"} alt=""/>
+
+                        </div>
+                        <div
+                            className={"research-and-development-res main-color  w-full bg-gray-400"}>
                             <ResearchAndDevelopment/>
                         </div>
                         <div className={"custom-height-px-500 main-color animated-button-height-res w-full  "}
@@ -481,10 +510,7 @@ function App() {
         );
 
 
-
 }
-
-
 
 
 export default App;

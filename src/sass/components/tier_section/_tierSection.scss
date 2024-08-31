@@ -1,20 +1,26 @@
 .tier-section-main{
   border-left: 1px solid rgba(152, 161, 192, .24);
   border-bottom: 1px solid rgba(152, 161, 192, .24);
-  //border-top: 1px solid #2ecc71;
+  border-top: 1px solid rgba(152, 161, 192, .24);
   //border-bottom: 1px solid #2ecc71;
   box-shadow: 3px 4px 3px rgba(0, 0, 0, .1);
-  border-radius: 10px;
+  border-radius: 30px;
   .custom-text-green{
     color: #2ecc71;
   }
+
 
 }
 .head-left-feature-section{
   background: linear-gradient(104deg, #1f1f1f 11.2%, #303030 34.8%);
 box-shadow: 3px 4px 4px rgba(0, 0, 0, .1);
   border: 1px solid rgba(152, 161, 192, .24);
-
+  padding: 12px 2px;
+border-radius: 20px;
+  height: 160px;
+}
+.tier-box{
+  height: 130px !important;
 }
 .tier-section-main{
   background: linear-gradient(104deg, #1f1f1f 11.2%, #303030 34.8%);

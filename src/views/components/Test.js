@@ -5,8 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import '../../test.css'; // Import custom CSS for the arrows
 
 const Test = () => {
-    console.log("a gya render")
-
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
         return (
@@ -43,7 +41,8 @@ const Test = () => {
                     borderRadius: "50%",
                     alignItems: "center",
                     justifyContent: "center",
-                    zIndex: 1
+                    zIndex: 1,
+
                 }}
                 onClick={onClick}
             />
@@ -52,7 +51,7 @@ const Test = () => {
 
 
     var settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 900,
         slidesToShow: 2,

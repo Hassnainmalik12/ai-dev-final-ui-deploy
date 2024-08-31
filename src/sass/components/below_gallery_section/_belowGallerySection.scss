@@ -4,18 +4,22 @@
     color: #2ecc71;
   }
   .main-heading{
-    font-size: 73.2px;
+    font-size: 5.2rem;
     word-spacing: 5px;
     color: white;
+    line-height: 99.8px;
   }
   .main-heading-green-text{
     color: #2ecc71;
-    font-size: 73.2px;
+    font-size: 5.2rem;
     word-spacing: 5px;
+    line-height: 99.8px;
   }
   .below-gallery-desc-section{
-    font-size: 35px;
     color: white;
+    line-height: 52.8px;
+    font-size: 35.2px;
+    margin-top: 35.2px;
   }
 }
 .below-gallery-desc-section2{
@@ -24,17 +28,21 @@
 
 }
 .button{
-  font-size: 25px ;
+  font-size: 32px ;
   color: white;
-    border: 3px solid #2ecc71;
-  border-radius: 20px;
-
+  border: 3px solid #2ecc71;
+  border-radius: 17.2px;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+;
   &:hover {
     background: #2ecc71;
   }
 }
 .lower-button-desc{
-  font-size: 30px;
+  font-size: 30.4px;
 
 }
 .last-desc{
@@ -43,11 +51,13 @@
 }
 .above-slider-text{
   h1{
-    font-size: 35px;
+    font-size: 48px;
     color: #2ecc71;
+    font-style: italic;
   }
   span{
     color: white;
+    font-style: normal;
   }
 }
 
@@ -107,12 +117,12 @@
 @media (min-width: 320px) and (max-width: 599px) {
   .below-gallery-section-height-res{
     //margin-top: 20px;
-    height: 290vh;
+    height: 270vh;
     //background: #1c64f2 !important;
   }
   .below-gallery-section-res{
     width: 100%;
-    height: 205vh;
+    height: 250vh;
 
   }
   .main-heading-res{
@@ -131,7 +141,7 @@
     font-size: 22px !important;
   }
   .below-gallery-section-second-res{
-    height: 130vh;
+    height: 140vh;
 
   }
   .below-gallery-desc-section2{
@@ -152,6 +162,21 @@
     align-items: flex-start;
     //background: #1c64f2;
     padding: 0 10px;
+    button{
+      height: 30%;
+    }
+  }
+  .below-gallery-button-line-res-virtual{
+    height: 40px;
+    padding: 0 10px;
+
+    button{
+      padding: 0 20px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      height: 100%;
+    }
   }
 
   .lower-button-desc{
@@ -167,16 +192,21 @@
 
   }
   .below-gallery-section-last-text-res{
-    height: 150px;
+    height: 200px;
   }
   .last-desc{
     font-size: 22px;
   }
   .last-desc-btn-res{
-    height: 650px;
+    padding: 0 10px;
+    height: 100px !important;
+    button{
+      width: 82%;
+      padding: 0 10px;
+    }
   }
   .logo-slider-res{
-    height: 180px;
+    height: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,6 +280,7 @@
   }
   .last-desc-btn-res{
     height: 50vh !important;
+    background: #1c64f2;
     .button{
       padding: 30px 50px !important;
       font-size: 20px !important;
@@ -257,7 +288,7 @@
     }
   }
   .logo-slider-res{
-    margin-top: 50px;
+    //margin-top: 50px;
     height: 200px;
   }
 

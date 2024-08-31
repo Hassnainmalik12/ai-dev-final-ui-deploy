@@ -42,7 +42,7 @@ const ChatBot = ({ onClose }) => {
     };
 
     return (
-        <div className={"chatbot-div-inside w-[45%]  h-full flex flex-col bg-gray-800 rounded-xl p-4"} >
+        <div className={"chatbot-div-inside w-[65%] h-full flex flex-col bg-gray-800 rounded-xl p-4"} >
             <div className={"w-full flex justify-between items-center mb-10"}>
                 <div className={"flex items-center gap-2"}>
                     <img src={preloader} alt="Logo" className={"h-10"} />

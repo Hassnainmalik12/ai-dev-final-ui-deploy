@@ -4,7 +4,7 @@ import React from 'react';
 const ResearchAndDevelopment = () => {
     return (
         <div className="research-and-development w-full h-full  flex justify-center items-center ">
-            <div className="research-and-development-inner-res w-[60%] h-[90%] bg-white flex flex-col items-center rounded-xl">
+            <div className="research-and-development-inner-res w-[60%] h-[65%] bg-white flex flex-col items-center rounded-3xl">
                 <div className="trade-dev-res h-[25%] w-full flex flex-col justify-center items-center">
                     <div className="research-and-development-heading h-full w-[70%] gap-3 flex flex-col justify-center items-center">
                         <h1>RESEARCH AND DEVELOPMENT</h1>

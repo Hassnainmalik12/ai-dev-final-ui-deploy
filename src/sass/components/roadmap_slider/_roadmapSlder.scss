@@ -92,6 +92,7 @@
 
 @media (min-width: 320px) and (max-width: 599px) {
 .roadmap-heading{
+  //margin-top: 20px;
   margin-bottom: 0;
 }
   .whitepaper{
@@ -110,7 +111,7 @@
     height: 100vh;
   }
   .roadmap-slider-container{
-    //margin-top: 50px;
+    margin-top: 50px;
   }
 .roadmap-button{
   padding: 10px 0;
