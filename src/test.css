@@ -99,7 +99,7 @@
 
 @media (min-width: 320px) and (max-width: 599px) {
     .owl-section{
-      height: 120vh;
+      height: 100vh;
     }
 
 .owl-section-width-res{
@@ -119,21 +119,27 @@
         width: 200px;
         height: 650px;
     }
+    .custom-slide-inner{
+display: flex;
+        justify-content: center;
+        align-items: center;
+    }
         .custom-slide-number{
-            font-size:70px !important;
+            font-size:7rem !important;
             color: black !important;
             border-bottom: 2px solid black;
+            text-align: center;
         }
         .custom-slide-heading{
-            font-size: 20px !important;
+            font-size: 3rem !important;
             span{
-                font-size: 20px !important;
+                font-size: 3rem !important;
                 color: #32CD32;
             }
 
         }
         .custom-slide-para{
-            font-size:  20px !important;
+            font-size:  16px !important;
         }
 
 }

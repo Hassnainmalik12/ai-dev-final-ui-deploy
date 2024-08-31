@@ -160,7 +160,7 @@ function App() {
                         {/*mid section height*/}
 
                         <div
-                            className="custom-height-63vh   ai-dev-area-height-res main-color  w-full flex justify-center items-center">
+                            className="custom-height-63vh  ai-dev-area-height-res main-color  w-full flex justify-center items-center">
                             <div className="custom-width-25 add-button-res  h-full flex justify-center items-center">
                                 <div className=" w-1/5 h-1/5 flex justify-center items-center">
                                     <img src={addIcon} alt="Add Icon"/>
@@ -168,8 +168,8 @@ function App() {
                             </div>
                             <div
                                 className="ai-dev-div-main-res uppercase  w-[65%]  h-full flex flex-col justify-between items-center">
-                                <p className="ai-dev-media Ai-dev-p"
-                                   style={{whiteSpace: 'nowrap'}}>
+                                <p className="ai-dev-media Ai-dev-p ai-dev-pioner"
+                                   >
                                     AI Dev pioneers decentralized [
                                     <span>
         <Typing
@@ -200,7 +200,7 @@ function App() {
                                     className="ai-dev-main-title custom-height-90  w-full flex flex-col justify-center items-center">
                                     <div
                                         className={"ai-dev-div w-full h-[90%]  flex-col flex justify-center items-center"}>
-                                        <p className="Ai-dev-text" style={{color:'#1f1f1f'}}>
+                                        <p className="Ai-dev-text ai-dev-margin" style={{color:'#1f1f1f'}}>
                                             <span>A</span>
                                             <span>I</span>
                                         </p>
@@ -363,10 +363,11 @@ function App() {
                         <div
                             className="mid-ai-text-area main-color mid-ai-text-area-res w-full flex custom-height-50vh justify-center items-center">
                             <div
-                                className="ai-text-left ai-text-left-res flex px-10 bg justify-end items-start custom-width-25 h-full"
+                                className="ai-text-left ai-text-left-res  flex px-10 bg justify-end items-start custom-width-25 h-full"
                                 ref={ref} // Move the ref here if you want to animate this element
+
                             >
-                                <div className="w-12 h-48 arrow-res flex items-start justify-end">
+                                <div className="w-12 h-48 arrow-res  flex items-start justify-end">
                                     <img src={arrow} alt="Arrow" style={{mixBlendMode: 'color-burn'}}
                                          className={`transition-opacity animate__animated ${isVisible ? 'animate__slideInUp animate__slower' : ''}`}/>
                                 </div>
@@ -439,13 +440,13 @@ function App() {
 
                         </div>
 
-                        <div className={"inverted-image h-16 w-full main-color"}>
+                        {/*<div className={"inverted-image h-16 w-full main-color"}>*/}
 
-                            <img
-                                src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82e_gallery-border-top.svg"
-                                className={"gallery-border"} alt=""/>
+                        {/*    <img*/}
+                        {/*        src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82e_gallery-border-top.svg"*/}
+                        {/*        className={"gallery-border"} alt=""/>*/}
 
-                        </div>
+                        {/*</div>*/}
                         <div className="devbot-height-res grey-color-bg custom-height-90vh  w-full bg-gray-800"
                              ref={section2Ref}>
                             <DevBotGifSection/>
@@ -482,13 +483,13 @@ function App() {
                             <Tokonomics/>
 
                         </div>
-                        <div className={"inverted-image h-32 w-full main-color"}>
+                        {/*<div className={"inverted-image h-32 w-full main-color"}>*/}
 
-                            <img
-                                src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82f_gallery-border-bottom.svg"
-                                className={"gallery-border"} alt=""/>
+                        {/*    <img*/}
+                        {/*        src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82f_gallery-border-bottom.svg"*/}
+                        {/*        className={"gallery-border"} alt=""/>*/}
 
-                        </div>
+                        {/*</div>*/}
                         <div
                             className={"research-and-development-res main-color  w-full bg-gray-400"}>
                             <ResearchAndDevelopment/>
