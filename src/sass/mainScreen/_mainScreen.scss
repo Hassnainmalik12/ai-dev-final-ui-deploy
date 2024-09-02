@@ -36,7 +36,7 @@ body{
 }
 
 .gallery-border {
-  z-index: 50;
+  //z-index: 50;
   width: 110%;
   max-width: none;
   margin-left: -2px;
@@ -261,7 +261,7 @@ background-size: 100%;
 
 .Ai-dev-text {
   @include font_Gridular_Regular;
-  font-size: 260px;
+  font-size: 30vh;
   font-weight: 600;
   line-height: 0.8!important;
   color: #1f1f1f;
@@ -554,10 +554,20 @@ line-height: 0.5
   .chatbot-pos-res{
     justify-content: center;
   }
+  .custom-width-25vh{
+    //width: 15vw;
+
+  }
   .chatbot-div-main{
-    width: 100px;
-    margin-right: 20px;
+    width: 200px;
+    //margin-right: 200px;
+    justify-content: flex-start;
     //position: relative;
+    .fixed{
+      justify-content: flex-start;
+      width: 140px;
+      height: 200px;
+    }
 
   }
   .inner{
@@ -662,9 +672,8 @@ line-height: 0.5
   }
 
   .Ai-dev-text{
-    font-size: 132px !important;
+    font-size: 20vh !important;
     line-height: 0.3 !important;
-    //margin-top: 20px;
   }
   .ai-dev-margin{
     margin-top: 20px;
@@ -744,9 +753,16 @@ margin-top: 10px;
       }
     }
   }
-  .main{
-    //padding: 10px 10px;
-
+  .inverted-image{
+    height: 20px;
+    overflow-x: hidden;
+  }
+  .gallery-border {
+    //z-index: 50;
+    width: 110%;
+    max-width: none;
+    //margin-left: -2px;
+    position: relative;
   }
 
 }

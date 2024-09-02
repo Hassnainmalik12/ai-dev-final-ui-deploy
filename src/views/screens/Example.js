@@ -67,7 +67,7 @@ const Card = ({card}) => {
         <div
             key={card.id}
             className={`card-res-vertical-height group relative 
-                   h-[750px] w-[1250px]`}
+                   h-[750px] w-[80vw]`}
             style={{
                 margin:  "-9px",
                 border: "1px solid grey",

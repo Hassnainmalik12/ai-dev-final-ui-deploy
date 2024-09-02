@@ -14,7 +14,7 @@ import image10 from '../../../images/Ai Dev Bot Random.gif';
 import image11 from '../../../images/Ai Dev Bot Rocket.gif';
 const TierSection = () => {
     return (
-        <div className={"tier-section-main  custom-height-px-1600   w-[60%] flex"} >
+        <div className={"tier-section-main  custom-height-px-1600   w-[60%] flex "} >
             {/*left section 40%*/}
             <div className={"h-full w-[40%] flex flex-col gap-2 "}>
 

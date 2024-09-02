@@ -340,9 +340,9 @@ function App() {
                                 </div>
                             </div>
                             <div className="chatbot-div-main custom-width-25vw h-full flex justify-center items-center relative ">
-                                <div className="fixed w-96 h-16 z-10 flex justify-end items-center "
+                                <div className="fixed w-96 h-16 z-10 flex justify-end items-center  "
                                      >
-                                    {/*<div className={"w-96 h-full flex justify-end"}>*/}
+                                    <div className={"chatbot-pos w-96 h-full flex justify-end "}>
                                         <img src={Chatbot} alt="Chatbot" className="chatbot-img h-max w-24 hover:cursor-pointer" onClick={toggleDiv}/>
                                         {isOpen && (
                                             <div
@@ -353,7 +353,7 @@ function App() {
                                                 <ChatBot onClose={toggleDiv}/>
                                             </div>
                                         )}
-                                    {/*</div>*/}
+                                    </div>
 
                                 </div>
                             </div>
@@ -442,13 +442,13 @@ function App() {
 
                         </div>
 
-                        {/*<div className={"inverted-image h-16 w-full main-color"}>*/}
+                        <div className={"inverted-image h-16 w-full main-color"}>
 
-                        {/*    <img*/}
-                        {/*        src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82e_gallery-border-top.svg"*/}
-                        {/*        className={"gallery-border"} alt=""/>*/}
+                            <img
+                                src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82e_gallery-border-top.svg"
+                                className={"gallery-border"} alt=""/>
 
-                        {/*</div>*/}
+                        </div>
                         <div className="devbot-height-res grey-color-bg custom-height-90vh  w-full bg-gray-800"
                              ref={section2Ref}>
                             <DevBotGifSection/>
@@ -485,13 +485,13 @@ function App() {
                             <Tokonomics/>
 
                         </div>
-                        {/*<div className={"inverted-image h-32 w-full main-color"}>*/}
+                        <div className={"inverted-image h-32 w-full main-color"}>
 
-                        {/*    <img*/}
-                        {/*        src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82f_gallery-border-bottom.svg"*/}
-                        {/*        className={"gallery-border"} alt=""/>*/}
+                            <img
+                                src="https://assets-global.website-files.com/65297561de96778ec29ce81d/65297561de96778ec29ce82f_gallery-border-bottom.svg"
+                                className={"gallery-border"} alt=""/>
 
-                        {/*</div>*/}
+                        </div>
                         <div
                             className={"research-and-development-res main-color  w-full bg-gray-400"}>
                             <ResearchAndDevelopment/>

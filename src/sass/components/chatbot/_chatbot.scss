@@ -40,11 +40,23 @@
 }
 
 @media (min-width: 320px) and (max-width: 599px) {
+  .chatbot-pos{
+    height: 110px;
+    justify-content: center;
+  }
+  .chatbot-div{
+    //margin-left: 30% !important;
+    width: 90vw !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
   .chatbot-div-inside {
     width: 300px;
     height: 400px !important;
     position: relative;
     margin-right: 50px;
+
   }
 
 }
