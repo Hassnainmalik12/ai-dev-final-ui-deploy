@@ -50,14 +50,14 @@ const BelowGallerySection = () => {
                     <div className={"h-[50%] w-full   flex flex-col gap-5"}>
                         <p className={"last-desc  text-white"}>To make an enquiry, contact our sales team:</p>
                         <div className={"last-desc-btn-res w-full h-[35%] flex  items-center gap-5"}>
-                            <button className={"button h-full px-10 capitalize"}>Virtual CIO Services</button>
+                            <button className={"button h-full px-10 capitalize"}>Contact Sales Team</button>
                         </div>
                     </div>
                 </div>
                 <div className={"above-slider-text slider-text h-[5%] w-full  flex justify-center items-center"}>
                     <h1>AI DEV <span>Supporters & Partners</span></h1>
                 </div>
-                <div className={" h-84 logo-slider-res w-full "}>
+                <div className={" h-84 logo-slider-res w-full"}>
                     <LogoSlider/>
 
                 </div>

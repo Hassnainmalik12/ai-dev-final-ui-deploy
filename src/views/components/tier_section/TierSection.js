@@ -16,11 +16,11 @@ const TierSection = () => {
     return (
         <div className={"tier-section-main  custom-height-px-1600   w-[60%] flex"} >
             {/*left section 40%*/}
-            <div className={"h-full w-[40%] flex flex-col gap-2"}>
+            <div className={"h-full w-[40%] flex flex-col gap-2 "}>
 
                 <div className={"flex justify-center bg-white items-center relative"}>
                     <div
-                        className={"head-left-feature-section bg-green-800  w-2/3 absolute h-44 rounded-xl bg-yellow-500 flex justify-center items-center"}>
+                        className={"head-left-feature-section w-2/3 absolute h-44 rounded-xl bg-yellow-300 flex justify-center items-center"}>
                         <h1 className={" custom-text-green feature-text-res font-bold text-3xl uppercase"}>features</h1>
 
                     </div>
@@ -176,7 +176,7 @@ const TierSection = () => {
             <div className={"h-full w-[60%] flex  justify-evenly items-start"}>
                 <div className={"right-section-cols-res w-[18%] h-full  relative flex flex-col gap-2"}>
                     <div
-                        className={"head-left-feature-section bg-yellow-500 w-full h-44 absolute rounded-lg flex justify-center flex-col items-center"}
+                        className={"head-right-first-section bg-yellow-500 w-full h-44 absolute rounded-lg flex justify-center flex-col items-center"}
                         style={{top: '-80px'}}>
                         <h1 className={"tier-text-head-res custom-text-green  font-bold text-3xl uppercase"}><span className={"text-white font-normal"}>*</span>FREE</h1>
                         <h1 className={"tier-text-head-des-res custom-text-green  text-sm "}>Trial 28 Days</h1>
@@ -284,7 +284,7 @@ const TierSection = () => {
                 {/*second col of 60%                */}
                 <div className={"right-section-cols-res w-[18%] h-full  relative flex flex-col gap-2"}>
                     <div
-                        className={"head-left-feature-section w-full tier-box h-36 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
+                        className={"head-right-second-section w-full tier-box h-36 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
                         style={{top: '-80px'}}>
                         <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 1</h1>
 
@@ -394,7 +394,7 @@ const TierSection = () => {
 
                 <div className={"right-section-cols-res w-[18%] h-full relative flex flex-col gap-2"}>
                     <div
-                        className={"head-left-feature-section w-full h-36 tier-box  absolute rounded-lg flex justify-center flex-col items-center"}
+                        className={"head-right-third-section bg-green-300 w-full h-36 tier-box  absolute rounded-lg flex justify-center flex-col items-center"}
                         style={{top: '-80px'}}>
                         <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 2</h1>
 
@@ -491,7 +491,7 @@ const TierSection = () => {
 
                 <div className={"right-section-cols-res w-[18%] h-full  relative flex flex-col gap-2"}>
                     <div
-                        className={"head-left-feature-section w-full tier-box h-28 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
+                        className={"head-right-fourth-section w-full tier-box h-28 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
                         style={{top: '-80px'}}>
                         <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 3</h1>
 

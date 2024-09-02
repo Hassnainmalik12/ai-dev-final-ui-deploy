@@ -117,6 +117,8 @@ function App() {
             return () => clearTimeout(timer);
         }, []);
 
+
+
         return (
             <>
                 {isSplashVisible ? (
@@ -459,13 +461,13 @@ function App() {
                         {/*below gallery section*/}
 
                         <div
-                            className={"custom-height-px-2000 grey-color-bg below-gallery-section-height-res  w-full bg-gray-5"}
+                            className={"custom-height-px-2000  grey-color-bg below-gallery-section-height-res  w-full bg-gray-5"}
                             ref={section3Ref}>
                             <BelowGallerySection/>
 
                         </div>
                         <div
-                            className={"tier-section-height-res grey-color-bg h-auto  w-full bg-gray-800 py-10 flex justify-center items-center"}>
+                            className={"tier-section-height-res grey-color-bg h-auto  w-full  py-10 flex justify-center items-center"}>
                             <TierSection/>
                         </div>
 

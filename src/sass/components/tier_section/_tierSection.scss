@@ -19,6 +19,24 @@ box-shadow: 3px 4px 4px rgba(0, 0, 0, .1);
 border-radius: 20px;
   height: 160px;
 }
+.head-right-first-section{
+  background: linear-gradient(104deg, #1f1f1f 11.2%, #303030 34.8%);
+box-shadow: 3px 4px 4px rgba(0, 0, 0, .1);
+  border: 1px solid rgba(152, 161, 192, .24);
+  padding: 12px 2px;
+border-radius: 20px;
+  height: 150px;
+}
+.head-right-second-section,
+.head-right-third-section,
+.head-right-fourth-section{
+  background: linear-gradient(104deg, #1f1f1f 11.2%, #303030 34.8%);
+box-shadow: 3px 4px 4px rgba(0, 0, 0, .1);
+  border: 1px solid rgba(152, 161, 192, .24);
+  padding: 12px 2px;
+border-radius: 20px;
+  height: 150px;
+}
 .tier-box{
   height: 130px !important;
 }
@@ -96,7 +114,9 @@ border-radius: 20px;
 @media (min-width: 320px) and (max-width: 599px) {
 
   .tier-section-height-res{
-    height: 220vh;
+    //margin-top: 70px;
+    height: 270vh;
+    background-color: black;
 
   }
   .custom-text-green-new{
@@ -105,9 +125,11 @@ border-radius: 20px;
   }
   .tier-section-main{
     width: 90%;
+    background-color: red !important;
   }
   .head-left-feature-section{
     width: 65%;
+    background-color: yellow;
   }
   .feature-text-res{
     font-size: 18px;
@@ -116,16 +138,37 @@ border-radius: 20px;
   .head-left-feature-section{
     width: 75%;
     height: 120px;
+    top: -45px !important;
+
   }
+
+
+
   .right-section-cols-res{
     width: 24%;
-    .head-left-feature-section{
-      height: 80px;
+
+    .head-right-first-section{
+      height: 100px;
       width: 100%;
-      top: -55px !important;
+      top: -45px !important;
+      border-radius: 10px;
+
+
+    }
+    .head-right-second-section,.head-right-third-section,.head-right-fourth-section{
+      height: 80px !important;
+      width: 100%;
+      top: -45px !important;
+      border-radius: 10px;
     }
 
-
+    //
+    //.head-left-feature-section{
+    //  height: 80px;
+    //  width: 100%;
+    //  top: -55px !important;
+    //  background-color: orange;
+    //}
 
   }
   .tier-text-head-res{

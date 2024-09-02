@@ -14,9 +14,15 @@
 
 @media (min-width: 320px) and (max-width: 599px) {
 .lower-tier-section-res{
-  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 230px !important;
 }
 .lower-tier-section-inner-res{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   width: 90%;
 }
   .lower-tier-img-res{

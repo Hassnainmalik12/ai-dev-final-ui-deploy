@@ -263,7 +263,7 @@ background-size: 100%;
   @include font_Gridular_Regular;
   font-size: 260px;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 0.8!important;
   color: #1f1f1f;
 }
 
@@ -713,9 +713,14 @@ margin-top: 10px;
     height: 60vh;
   }
   .marquee-text-area-upper{
-    height: 45vh;
+    height:45vh;
+    //background-color: red;
     .custom-marquee{
-      height: 80px;
+    display: flex;
+      //justify-content: center;
+      align-items: center;
+      height: 22%;
+      //background-color: black;
       h1{
         font-size: 50px !important;
         font-family: "Anton", sans-serif;
@@ -723,6 +728,7 @@ margin-top: 10px;
         font-style: normal;
         color: white;
         letter-spacing: 3px;
+        line-height: 0.7;
       }
       h2{
         font-size: 50px !important;
@@ -733,6 +739,8 @@ margin-top: 10px;
         font-style: normal;
         color: transparent;
         letter-spacing: 3px;
+        line-height: 0.7;
+
       }
     }
   }

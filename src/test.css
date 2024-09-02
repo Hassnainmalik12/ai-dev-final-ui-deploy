@@ -99,25 +99,26 @@
 
 @media (min-width: 320px) and (max-width: 599px) {
     .owl-section{
-      height: 100vh;
+      height: 120vh;
     }
 
 .owl-section-width-res{
-    height: 500px;
+    height: 110vh!important;
+
 
 }
     .slick-slide {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 650px; /* Adjust to your needs */
+        height: 105vh; /* Adjust to your needs */
         box-sizing: border-box;
 
         /* Ensure padding and borders are included in width/height */
     }
     .slick-slide .custom-slide {
         width: 200px;
-        height: 650px;
+        height: 105vh;
     }
     .custom-slide-inner{
 display: flex;

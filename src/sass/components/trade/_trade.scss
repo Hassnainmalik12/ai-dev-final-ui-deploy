@@ -87,7 +87,7 @@
 
 @media (min-width: 320px) and (max-width: 599px) {
   .trade-height-res{
-    height: 75vh;
+    height: 80vh;
   }
   .trade-marquee-area{
     height: 40%;
@@ -115,12 +115,17 @@
   }
 
     }
-    img{
-      top: -60px !important;
-    }
+    //img{
+    //  top: -80px !important;
+    //}
   }
   .social-icons-width{
-    width: 60%;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    .social-icons-width{
+      width: 100%;
+    }
     .icon-height{
       height: 50%;
       gap: 10px;
@@ -128,34 +133,64 @@
 
   }
   .trade-logo-width{
-    width: 30%;
+    width: 60%;
+  }
+  .trade-logo-icons-sec{
+    height: 50%;
+  }
+  .icon-height{
+    width: 20%;
   }
   .trade-section-last-width{
     width: 40%;
   }
   .trade-last-contact{
+    padding: 10px 0;
     height: 100%;
-    width: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     p{
-      font-size: 14px !important;
+      font-size: 16px !important;
       text-align: center;
     }
   }
   .trade-contact-sec{
-     width: 90%;
-      font-size: 16px !important;
-
+     width: 100%;
+      font-size: 19.2px !important;
+  }
+  .second-part-height-res{
+    height: 110%;
+  }
+  .copyright{
+    height: 100px;
+    background-color: #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .copyright-text{
     font-size: 20px;
   }
   .rotating-image{
-    height: 100px;
-    width: 100px;
-    top: 120px !important;
+    height: 130px;
+    width: 130px;
+    top: 100px !important;
   }
   .trade-section-last-border{
-    height: 80%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    .trade-section-last-width{
+      width: 0;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .trade-logo-icons-sec{
+    flex-direction: column;
+
   }
   .copyright{
     display: flex;

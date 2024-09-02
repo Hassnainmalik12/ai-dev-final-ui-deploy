@@ -64,15 +64,15 @@ const Trade = ({ sectiontopRef}) => {
             {/*second part*/}
 
             <div className={"h-1/2 w-full"}>
-                <div className={"h-[60%] w-full"}>
-                    <div className={"h-[30%] w-full   flex justify-between items-center"}>
-                        <div className={"trade-logo-width h-[80%]  w-[20%] flex justify-center"}>
+                <div className={"second-part-height-res h-[60%] w-full"}>
+                    <div className={"trade-logo-icons-sec h-[30%] w-full   flex justify-between items-center"}>
+                        <div className={"trade-logo-width h-[80%]   w-[20%] flex justify-center"}>
                             <div className={"h-full w-[60%] flex justify-center items-center"}>
                                 <img src={logo} alt=""/>
                             </div>
                         </div>
                         <div className={"social-icons-width h-[80%]  gap-3 w-[35%] flex justify-center items-center"}>
-                            <div className={"h-full w-[80%] flex justify-between items-center"}>
+                            <div className={"social-icons-width h-full w-[80%]  flex justify-between items-center"}>
                                 <div className={"icon-height h-[70%] w-[15%]  flex justify-center items-center"}>
                                     <img src={social1} alt="" className={"h-full"}/>
                                 </div>
@@ -94,7 +94,7 @@ const Trade = ({ sectiontopRef}) => {
                             </div>
                         </div>
                     </div>
-                    <div className={"trade-section-last-border h-[70%] w-full  flex justify-between "}>
+                    <div className={"trade-section-last-border  h-[70%] w-full  flex justify-between "}>
                         <div className={"trade-section-last-width h-[75%] w-[60%]  flex justify-between"}>
 
                         </div>
