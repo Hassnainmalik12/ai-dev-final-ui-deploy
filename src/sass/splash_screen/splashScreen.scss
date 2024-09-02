@@ -9,6 +9,10 @@ html, body {
   height: 100%;
 }
 
+
+.splash.animate-up.no-bg {
+  background-color: transparent; /* Remove the background color */
+}
 .splash {
   width: 100vw;
   height: 100vh;

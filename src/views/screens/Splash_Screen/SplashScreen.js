@@ -47,7 +47,7 @@ const SplashScreen = () => {
     // }, [loaded]);
 
     return (
-        <div className={`splash ${animate ? 'animate-up' : ''}`}>
+        <div className={`splash ${animate ? 'animate-up no-bg' : ''}`}>
             {!animate ? (
                 <div className="center-box">
                     <div className="splash-gif">
