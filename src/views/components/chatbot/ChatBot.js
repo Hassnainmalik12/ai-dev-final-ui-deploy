@@ -43,13 +43,13 @@ const ChatBot = ({ onClose }) => {
 
     return (
         <div className={"chatbot-div-inside w-[65%] h-full flex flex-col bg-gray-800 rounded-xl p-4"} >
-            <div className={"w-full flex justify-between items-center mb-10"}>
+            <div className={"chatbot-top w-full flex justify-between items-center mb-10 "}>
                 <div className={"flex items-center gap-2"}>
                     <img src={preloader} alt="Logo" className={"h-10"} />
                     <h1 className={"text-white text-lg"}>AI DEV</h1>
                 </div>
                 <div onClick={onClose} className={"cursor-pointer"}>
-                    <img src={arrowDown} alt="Close" className={"w-6"} />
+                    <img src={arrowDown} alt="Close" className={"w-6 arrow-down"} />
                 </div>
             </div>
             <div className={"flex-1 overflow-y-auto mb-2"}>

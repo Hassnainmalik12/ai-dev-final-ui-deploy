@@ -23,6 +23,7 @@ import Tokonomics from "./views/components/tokonomics/Tokonomics";
 import ResearchAndDevelopment from "./views/components/research_and_development/ResearchAndDevelopment";
 import AnimatedButton from "./views/components/animated_button/AnimatedButton";
 import Trade from "./views/components/trade/Trade";
+import chatBot from "./views/components/chatbot/ChatBot";
 function App() {
 
 
@@ -342,11 +343,11 @@ function App() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="chatbot-div-main custom-width-25vw h-full flex justify-center items-center relative ">
+                            <div className="chatbot-div-main custom-width-25vw  h-full flex justify-center items-center relative ">
                                 <div className="fixed w-96 h-16 z-10 flex justify-end items-center  "
                                      >
                                     <div className={"chatbot-pos w-96 h-full flex justify-end "}>
-                                        <img src={Chatbot} alt="Chatbot" className="chatbot-img h-max w-24 hover:cursor-pointer" onClick={toggleDiv}/>
+                                        <img src={Chatbot} alt="Chatbot" className="chatbot-img h-max w-24 hover:cursor-pointer " onClick={toggleDiv}/>
                                         {isOpen && (
                                             <div
                                                 className="chatbot-div  toggle-div absolute bottom-full  mb-[calc(6%)] text-white flex items-center justify-end "

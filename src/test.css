@@ -147,12 +147,13 @@ display: flex;
 @media (min-width: 320px) and (max-width: 599px) and (max-height: 599px) {
     .owl-section{
         height: 150vh;
-        background: red !important;
+
     }
 
     .owl-section-width-res{
         height: 130vh!important;
-        background: orange;
+
+
 
     }
     .slick-slide {
