@@ -3,52 +3,47 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../../test.css'; // Import custom CSS for the arrows
+import leftArrow from '../../images/tickIcon.png'
+import rightArrow from '../../images/tickIcon.png'
 
 const Test = () => {
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
         return (
-            <div
+            <img
+                src={rightArrow} // Use the custom right arrow image
                 className={`${className} custom-arrow next-arrow`}
                 style={{
                     ...style,
-                    display: "flex",
-                    background: "#32CD32",
                     width: "35px",
                     height: "35px",
-                    borderRadius: "50%",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    zIndex: 1
+                    zIndex: 1,
+                    cursor: "pointer",
                 }}
                 onClick={onClick}
+                alt="Next"
             />
         );
     }
-
 
     function SamplePrevArrow(props) {
         const { className, style, onClick } = props;
         return (
-            <div
-                className={`${className} custom-arrow next-arrow`}
+            <img
+                src={leftArrow} // Use the custom left arrow image
+                className={`${className} custom-arrow prev-arrow`}
                 style={{
                     ...style,
-                    display: "flex",
-                    background: "#32CD32",
                     width: "35px",
                     height: "35px",
-                    borderRadius: "50%",
-                    alignItems: "center",
-                    justifyContent: "center",
                     zIndex: 1,
-
+                    cursor: "pointer",
                 }}
                 onClick={onClick}
+                alt="Previous"
             />
         );
     }
-
 
     var settings = {
         dots: true,

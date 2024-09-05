@@ -94,7 +94,7 @@ const Tokonomics = () => {
                 <div className={"contract-address-line w-[75%] mt-2"}>
                     <h1 className={"text-white text-center contract-address mb-2"}>Contract Address</h1>
                 </div>
-                <div className={"parent-div  h-auto w-full flex justify-center items-center gap-5"}>
+                <div className={"parent-div  h-auto w-full flex justify-center items-center  gap-5"}>
                     <div className={" copy-text-border child-div-copy  flex gap-4 h-16 w-auto bg-gray-800    justify-center items-center px-5 rounded-full"}>
                         <h1 className={"text-white copy-code hover:cursor-pointer"}>0x9Cf0ED013e67DB12cA3AF8e7506fE401aA14dAd6</h1>
                         <img src={isCopied ? tickIcon : copy}

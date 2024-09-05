@@ -612,10 +612,10 @@ const RoadmapSlider = () => {
             </div>
 
         </Slider>
-        <div className={"roadmap-button  text-white h-auto  flex justify-center gap-5 py-12"}>
-            <h1 className={"px-5 py-3 whitepaper rounded-full"}>whitepaper</h1>
-            <h1 className={"px-5 py-3 view-in-full-roadmap rounded-full"}>view in full roadmap</h1>
-        </div>
+        {/*<div className={"roadmap-button  text-white h-auto  flex justify-center  gap-5 py-12"}>*/}
+        {/*    <h1 className={"px-5 py-3 whitepaper rounded-full"}><p>whitepaper</p></h1>*/}
+        {/*    <h1 className={"px-5 py-3 view-in-full-roadmap rounded-full flex justify-center items-center"}><p>view in full roadmap</p></h1>*/}
+        {/*</div>*/}
     </div>
         </>
     );

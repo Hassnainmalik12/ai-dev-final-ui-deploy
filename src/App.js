@@ -142,8 +142,11 @@ function App() {
                                  style={{width: "85vw", height: "100vh", zIndex: 50}}>
                                 <Sidebar section1Ref={section1Ref} section2Ref={section2Ref} section3Ref={section3Ref}
                                          section4Ref={section4Ref} section5Ref={section5Ref}/>
-                                <div className={"h-16 w-16 flex justify-center items-center "} onClick={toggleDiv1}>
-                                    <img src={cross} alt="" className={'h-8'}/>
+                                <div className={"h-16 w-16  flex justify-center items-center "} onClick={toggleDiv1}>
+                                    <div className={"grey-color-bg h-12 w-12 flex justify-center items-center"}>
+                                        <img src={cross} alt="" className={'h-6'}/>
+                                    </div>
+
                                 </div>
                             </div>
 

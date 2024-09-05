@@ -81,15 +81,15 @@ const Sidebar = ({ section1Ref, section2Ref, section3Ref, section4Ref, section5R
     };
 
     return (
-        <div className="w-full h-full bg-black p-1">
-            <div className={"w-full h-full bg-black px-2 navbar-inner-border"} >
+        <div className="w-full h-full grey-color-bg  p-1 rounded-lg">
+            <div className={"w-full h-full grey-color-bg px-2 navbar-inner-border"} >
                 <div className={"h-12 w-full"}></div>
 
                 {/* First Dropdown */}
                 <div className={`relative mt-2 `}>
                     <button
                         onClick={() => toggleDropdown(0)}
-                        className={` flex justify-between items-center p-2 w-full ${isActive1 ? 'text-green-navbar' : 'text-white'}`}
+                        className={`text-lg flex justify-between items-center p-2 w-full ${isActive1 ? 'text-green-navbar' : 'text-white'}`}
                     >
                         01. EXPLORE
                         <span
@@ -114,7 +114,7 @@ const Sidebar = ({ section1Ref, section2Ref, section3Ref, section4Ref, section5R
                 <div className="relative mt-2" style={{ marginTop: isOpen1 ? '6rem' : '0' }}>
                     <button
                         onClick={() => toggleDropdown(1)}
-                        className={`mt-2 text-white md:text-xl flex justify-between items-center p-2 w-full ${isActive2 ? 'text-green-navbar' : 'text-white'}`}
+                        className={`text-lg mt-2 text-white md:text-xl flex justify-between items-center p-2 w-full ${isActive2 ? 'text-green-navbar' : 'text-white'}`}
                     >
                         02. AI Bots
                         <span
@@ -139,7 +139,7 @@ const Sidebar = ({ section1Ref, section2Ref, section3Ref, section4Ref, section5R
                 <div className="relative mt-2 md:text-xl " style={{ marginTop: isOpen2 ? '6rem' : '0' }}>
                     <button
                         onClick={() => toggleDropdown(2)}
-                        className={`mt-2 text-white flex justify-between items-center p-2 w-full ${isActive3 ? 'text-green-navbar' : 'text-white'}`}
+                        className={`text-lg mt-2 text-white flex justify-between items-center p-2 w-full ${isActive3 ? 'text-green-navbar' : 'text-white'}`}
                     >
                         03. Docs
                         <span
@@ -164,7 +164,7 @@ const Sidebar = ({ section1Ref, section2Ref, section3Ref, section4Ref, section5R
                 <div className="relative mt-2 md:text-xl" style={{ marginTop: isOpen3 ? '6rem' : '0' }}>
                     <button
                         onClick={() => toggleDropdown(3)}
-                        className={`mt-2 text-white flex justify-between items-center p-2 w-full ${isActive4 ? 'text-green-navbar' : 'text-white'}`}
+                        className={`text-lg mt-2 text-white flex justify-between items-center p-2 w-full ${isActive4 ? 'text-green-navbar' : 'text-white'}`}
                     >
                         04. Connect
                         <span
@@ -189,7 +189,7 @@ const Sidebar = ({ section1Ref, section2Ref, section3Ref, section4Ref, section5R
                 <div className="relative mt-2 md:text-xl" style={{ marginTop: isOpen4 ? '6rem' : '0' }}>
                     <button
                         onClick={() => toggleDropdown(4)}
-                        className={`mt-2 text-white flex justify-between items-center p-2 w-full ${isActive5 ? 'text-green-navbar' : 'text-white'}`}
+                        className={`text-lg mt-2 text-white flex justify-between items-center p-2 w-full ${isActive5 ? 'text-green-navbar' : 'text-white'}`}
                     >
                         05. Trade
                         <span

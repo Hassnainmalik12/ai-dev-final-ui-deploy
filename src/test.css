@@ -144,6 +144,54 @@ display: flex;
         }
 
 }
+@media (min-width: 320px) and (max-width: 599px) and (max-height: 599px) {
+    .owl-section{
+        height: 150vh;
+        background: red !important;
+    }
+
+    .owl-section-width-res{
+        height: 130vh!important;
+        background: orange;
+
+    }
+    .slick-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 105vh; /* Adjust to your needs */
+        box-sizing: border-box;
+
+        /* Ensure padding and borders are included in width/height */
+    }
+    .slick-slide .custom-slide {
+        width: 200px;
+        height: 105vh;
+    }
+    .custom-slide-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .custom-slide-number{
+        font-size:7rem !important;
+        color: black !important;
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+    .custom-slide-heading{
+        font-size: 3rem !important;
+        span{
+            font-size: 3rem !important;
+            color: #32CD32;
+        }
+
+    }
+    .custom-slide-para{
+        font-size:  16px !important;
+    }
+
+}
 
 
 @media  (min-width: 601px) and (max-width: 1024px) {

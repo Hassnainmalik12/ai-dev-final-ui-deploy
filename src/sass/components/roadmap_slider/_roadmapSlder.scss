@@ -96,19 +96,25 @@
   margin-bottom: 0;
 }
   .whitepaper{
-    height: 50px;
+    height: 45px;
     width: 160px;
-    text-align: center;
+    //text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .view-in-full-roadmap {
-    height: 50px;
+    height: 45px;
     width: 400px !important;
-
-    text-align: center;
+    //text-align: center;
     padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
 .roadmap-height-res{
-    height: 100vh;
+    height: 110vh;
   }
   .roadmap-slider-container{
     margin-top: 50px;
@@ -119,6 +125,7 @@
   .roadmap-slider-card{
     background: linear-gradient(104deg, #1f1f1f 11.2%, #303030 34.8%);
     width: 280px !important;
+    height: 530px;
   }
 }
 
