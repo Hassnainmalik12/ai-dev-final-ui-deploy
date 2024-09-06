@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../../test.css'; // Import custom CSS for the arrows
-import leftArrow from '../../images/tickIcon.png'
-import rightArrow from '../../images/tickIcon.png'
+import leftArrow from '../../images/leftArrow.png'
+import rightArrow from '../../images/rightArrow.png'
 
 const Test = () => {
     function SampleNextArrow(props) {
@@ -15,8 +15,8 @@ const Test = () => {
                 className={`${className} custom-arrow next-arrow`}
                 style={{
                     ...style,
-                    width: "35px",
-                    height: "35px",
+                    width: "45px",
+                    height: "45px",
                     zIndex: 1,
                     cursor: "pointer",
                 }}
@@ -34,8 +34,8 @@ const Test = () => {
                 className={`${className} custom-arrow prev-arrow`}
                 style={{
                     ...style,
-                    width: "35px",
-                    height: "35px",
+                    width: "45px",
+                    height: "45px",
                     zIndex: 1,
                     cursor: "pointer",
                 }}

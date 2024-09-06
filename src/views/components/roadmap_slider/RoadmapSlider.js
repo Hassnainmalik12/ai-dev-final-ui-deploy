@@ -19,45 +19,43 @@ import a10 from '../../../images/a10.png';
 import a11 from '../../../images/a11.png';
 import a12 from '../../../images/a12.png';
 import a13 from '../../../images/a13.png';
+import rightArrow from "../../../images/rightArrow.png";
+import leftArrow from "../../../images/leftArrow.png";
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
-        <div
-            className={className}
+        <img
+            src={rightArrow} // Use the custom right arrow image
+            className={`${className} custom-arrow next-arrow`}
             style={{
                 ...style,
-                display: "flex",
-                background: "#32CD32",
                 width: "45px",
                 height: "45px",
-                borderRadius: "50%",
-                alignItems: "center",
-                justifyContent: "center",
-                zIndex: 1
+                zIndex: 1,
+                cursor: "pointer",
             }}
             onClick={onClick}
+            alt="Next"
         />
     );
 }
 
 function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+    const {className, style, onClick} = props;
     return (
-        <div
-            className={className}
+        <img
+            src={leftArrow} // Use the custom left arrow image
+            className={`${className} custom-arrow prev-arrow`}
             style={{
                 ...style,
-                display: "flex",
-                background: "#32CD32",
                 width: "45px",
                 height: "45px",
-                borderRadius: "50%",
-                alignItems: "center",
-                justifyContent: "center",
-                zIndex: 1
+                zIndex: 1,
+                cursor: "pointer",
             }}
             onClick={onClick}
+            alt="Previous"
         />
     );
 }
@@ -73,8 +71,8 @@ const RoadmapSlider = () => {
         arrows: true,
         // autoplay: true,
         // autoplaySpeed: 400,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
+        nextArrow: <SampleNextArrow/>,
+        prevArrow: <SamplePrevArrow/>,
         responsive: [
             {
                 breakpoint: 1024,

@@ -3,7 +3,7 @@ import SplashScreen from "./views/screens/Splash_Screen/SplashScreen";
 import './index.css';
 import 'animate.css';
 import Typing from "react-typing-effect";
-import burger from "./images/burgerMenu.webp";
+import burger from "./images/burgerMenu.png";
 import Sidebar from "./views/components/sidebar/Sidebar";
 import cross from "./images/cross.png";
 import logoIcon from "./images/logo.png";

@@ -45,13 +45,7 @@
 }
 /* Custom styles for the slick arrows */
 .slick-prev, .slick-next {
-    width: 50px; /* Adjust the width */
-    height: 50px; /* Adjust the height */
-    background: #90EE90; /* Background color */
     border-radius: 50%; /* Optional: make them circular */
-    display: flex; /* Center the arrow icon */
-    align-items: center; /* Center the arrow icon */
-    justify-content: center; /* Center the arrow icon */
     z-index: 1; /* Ensure they are above the slides */
 }
 
@@ -119,6 +113,10 @@
     .slick-slide .custom-slide {
         width: 200px;
         height: 105vh;
+    }
+    .slick-prev, .slick-next {
+        height: 35px !important;
+        width: 35px !important;
     }
     .custom-slide-inner{
 display: flex;
