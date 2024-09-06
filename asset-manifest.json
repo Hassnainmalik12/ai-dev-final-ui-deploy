@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ai-dev-final-ui-deploy/static/css/main.6f4ffe11.css",
-    "main.js": "/ai-dev-final-ui-deploy/static/js/main.d07f1caa.js",
+    "main.css": "/ai-dev-final-ui-deploy/static/css/main.d54df742.css",
+    "main.js": "/ai-dev-final-ui-deploy/static/js/main.b3a14260.js",
     "static/media/Ai Dev Bot Pad.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pad.fbf6d66fbbff33716f83.gif",
     "static/media/Ai Dev Bot Pack Desktop.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pack Desktop.65dd0d058bc92a315946.gif",
     "static/media/Ai Dev Bot Uncensored Ai.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Uncensored Ai.fbdd31c5130a4b839262.gif",
@@ -29,11 +29,11 @@
     "static/media/slick.ttf": "/ai-dev-final-ui-deploy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ai-dev-final-ui-deploy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ai-dev-final-ui-deploy/index.html",
-    "main.6f4ffe11.css.map": "/ai-dev-final-ui-deploy/static/css/main.6f4ffe11.css.map",
-    "main.d07f1caa.js.map": "/ai-dev-final-ui-deploy/static/js/main.d07f1caa.js.map"
+    "main.d54df742.css.map": "/ai-dev-final-ui-deploy/static/css/main.d54df742.css.map",
+    "main.b3a14260.js.map": "/ai-dev-final-ui-deploy/static/js/main.b3a14260.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f4ffe11.css",
-    "static/js/main.d07f1caa.js"
+    "static/css/main.d54df742.css",
+    "static/js/main.b3a14260.js"
   ]
 }
