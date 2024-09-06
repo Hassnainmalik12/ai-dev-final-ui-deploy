@@ -131,9 +131,9 @@ function App() {
                             className="custom-height-7vh  z-10 w-full flex  items-center  fixed "
 
                         >
-                            <div className="w-16 h-16 mt- flex hidden items-center justify-center cursor-pointer"
+                            <div className="w-20 h-20 mt-10  flex hidden items-center justify-center cursor-pointer"
                                  onClick={toggleDiv1}>
-                                <img src={burger} alt="Burger Menu" className="h-8"/>
+                                <img src={burger} alt="Burger Menu" className="h-12"/>
                             </div>
                         </div>
 
@@ -241,7 +241,7 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bottom-bar  main-color bottom-bar-res bg-green-300 w-full custom-height-15vh flex">
+                        <div className="bottom-bar  main-color bottom-bar-res  w-full custom-height-15vh flex">
                             <div className="custom-width-25vw h-full flex justify-center items-center" >
                                 <div className="w-1/5 h-1/5 flex justify-center items-center">
                                     {/* Optionally include any content here */}
