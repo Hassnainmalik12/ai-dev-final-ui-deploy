@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ai-dev-final-ui-deploy/static/css/main.c86b5463.css",
-    "main.js": "/ai-dev-final-ui-deploy/static/js/main.2f86fef4.js",
+    "main.css": "/ai-dev-final-ui-deploy/static/css/main.6f4ffe11.css",
+    "main.js": "/ai-dev-final-ui-deploy/static/js/main.d07f1caa.js",
     "static/media/Ai Dev Bot Pad.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pad.fbf6d66fbbff33716f83.gif",
     "static/media/Ai Dev Bot Pack Desktop.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Pack Desktop.65dd0d058bc92a315946.gif",
     "static/media/Ai Dev Bot Uncensored Ai.gif": "/ai-dev-final-ui-deploy/static/media/Ai Dev Bot Uncensored Ai.fbdd31c5130a4b839262.gif",
@@ -26,15 +26,14 @@
     "static/media/background.png": "/ai-dev-final-ui-deploy/static/media/background.0f123594a62e3f251d1a.png",
     "static/media/slick.svg": "/ai-dev-final-ui-deploy/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ai-dev-final-ui-deploy/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/burgerMenu.webp": "/ai-dev-final-ui-deploy/static/media/burgerMenu.d21197e3a17d41ed1a67.webp",
     "static/media/slick.ttf": "/ai-dev-final-ui-deploy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ai-dev-final-ui-deploy/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ai-dev-final-ui-deploy/index.html",
-    "main.c86b5463.css.map": "/ai-dev-final-ui-deploy/static/css/main.c86b5463.css.map",
-    "main.2f86fef4.js.map": "/ai-dev-final-ui-deploy/static/js/main.2f86fef4.js.map"
+    "main.6f4ffe11.css.map": "/ai-dev-final-ui-deploy/static/css/main.6f4ffe11.css.map",
+    "main.d07f1caa.js.map": "/ai-dev-final-ui-deploy/static/js/main.d07f1caa.js.map"
   },
   "entrypoints": [
-    "static/css/main.c86b5463.css",
-    "static/js/main.2f86fef4.js"
+    "static/css/main.6f4ffe11.css",
+    "static/js/main.d07f1caa.js"
   ]
 }
