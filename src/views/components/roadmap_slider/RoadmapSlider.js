@@ -124,7 +124,7 @@ const RoadmapSlider = () => {
             <div className="roadmap-slider-slide ">
                 <div className={" roadmap-slider-card  w-96 h-full bg-gray-800 card-radius px-7 flex flex-col py-2"}>
                     <div className={"h-[15%] w-full   flex justify-between items-center px-3"}>
-                        <div className={"h-1/2 w-[40%] "}>
+                        <div className={"h-1/2 w-[40%]"}>
                             <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>phase
                                 1</h1>
                         </div>
