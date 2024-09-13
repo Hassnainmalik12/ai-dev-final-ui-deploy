@@ -27,7 +27,7 @@ const HorizontalScrollCarousel = () => {
         target: targetRef,
     });
     const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 768);
-    const x = useTransform(scrollYProgress, [0, 1], ["1%", "-85%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["1%", "-87%"]);
 
 
 
