@@ -208,9 +208,9 @@ function App() {
                             >
                                 {/*idhr is trha se krna hai language ko change*/}
 
-                                {/*{t('welcome')}*/}
+                                {t('Ai-dev-p-text')}
 
-                                AI Dev pioneers decentralized [
+
                                 <span>
         <Typing
             text={["ARTIFICIAL INTELLIGENCE"]}
@@ -231,7 +231,8 @@ function App() {
             )}
         />
     </span>
-                                ] offering innovative AI-driven Telegram bots.
+                                {t('Ai-dev-after-p-span')}
+
                             </p>
 
 
@@ -253,18 +254,19 @@ function App() {
 
                             </div>
                             <p className="text-container1 uppercase Ai-dev-p Ai-dev-bottom-text-resp w-full flex justify-center items-center">
-                                AI DEV [
+                                {t('container-text')}
                                 <p className="text-container">
         <span className="font-bold green-text lower-span-block">
-            Craft websites, Deploy smart <span className={"contract-block"}>contracts, Predict Prices</span>
+                                            {t('text-container-span1')}
+            <span className={"contract-block"}>{t('text-container-span2')}</span>
         </span>
-                                    <p className="pl-2 inline and-black-text">AND</p>
+                                    <p className="pl-2 inline and-black-text">{t('text-container-para')}</p>
                                     <span className="pl-2 font-bold">
-            Snipe trades <span className={"bracket text-black"}>]</span>
+            {t('text-container-span3')} <span className={"bracket text-black"}>]</span>
         </span>
                                 </p>
 
-                                <h1 className="additional-text  pl-1">All directly through your Telegram!</h1>
+                                <h1 className="additional-text  pl-1">{t('additional-text')}</h1>
                             </p>
 
 
@@ -417,9 +419,9 @@ function App() {
                             ref={ref}
                         >
                             <p className={`tracking-wider transition-opacity animate__animated ${isVisible ? 'animate__slideInUp animate__slow' : ''}`}>
-                                <span>AI Dev </span> aims to provide an AI ecosystem for crypto users, all accessible through the convenience of a Telegram account. Effortlessly create stunning websites with AI image generation, just a few clicks, deploy smart contracts on multiple chains, and utilize the
-                                <span>EXCLUSIVE</span>
-                                Sniper Bot, Enjoy its features such as a seamless wallet tracker, Copy trading from Telegram channels and much More!
+                                <span>{t('mid-ai-span')} </span> {t('mid-ai-text')}
+                                <span>{t('mid-ai-span2')}</span>
+                                {t('mid-ai-text2')}
                             </p>
                         </div>
                         <div className="ai-right-right mid-a-text-right-res custom-width-25 h-full"></div>
@@ -441,32 +443,14 @@ function App() {
                         <marquee className="custom-marquee" behavior="scroll" width="100%" direction="left"
 
                                  scrollamount="13">
-                            <h1 style={{display: "inline-block", marginRight: "50px"}}> Website AI x Sniper AI x
-                                Token
-                                Deployer
-                                x AI face Swap x Voice
-                                AI x
-                                MEME Generator x Uncensored AI</h1>
-                            <h2 style={{display: "inline-block"}}> Website AI x Sniper AI x Token Deployer x AI face
-                                Swap x
-                                Voice
-                                AI x
-                                MEME Generator x Uncensored AI</h2>
+                            <h1 style={{display: "inline-block", marginRight: "50px"}}> {t('marquee-upper-h')} </h1>
+                            <h2 style={{display: "inline-block"}}> {t('marquee-upper-h')}</h2>
                         </marquee>
                         <marquee className="custom-marquee" behavior="scroll" width="100%" direction="right"
 
                                  scrollamount="13">
-                            <h2 style={{display: "inline-block", marginRight: "50px"}}> Website AI x Sniper AI x
-                                Token
-                                Deployer
-                                x AI face Swap x Voice
-                                AI x
-                                MEME Generator x Uncensored AI</h2>
-                            <h1 style={{display: "inline-block"}}> Website AI x Sniper AI x Token Deployer x AI face
-                                Swap x
-                                Voice
-                                AI x
-                                MEME Generator x Uncensored AI</h1>
+                            <h2 style={{display: "inline-block", marginRight: "50px"}}> {t('marquee-upper-h')}</h2>
+                            <h1 style={{display: "inline-block"}}> {t('marquee-upper-h')}</h1>
                         </marquee>
 
 
@@ -507,7 +491,7 @@ function App() {
                     </div>
 
                     <div
-                        className={"roadmap-height-res grey-color-bg custom-height-px-700  w-full px-3 bg-gray-500"}>
+                        className={"roadmap-height-res grey-color-bg custom-height-px-900  w-full px-3 bg-gray-500"}>
                         <RoadmapSlider/>
                     </div>
                     <div className={"tokonomics-height-res custom-height-90 w-full grey-color-bg"}>

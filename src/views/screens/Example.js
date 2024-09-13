@@ -12,8 +12,10 @@ import image9 from '../../images/Ai Dev Bot Voice AI.gif';
 import image10 from '../../images/Ai Dev Bot Random.gif';
 import image11 from '../../images/Ai Dev Bot Rocket.gif';
 import TypingEffect from "../components/typing-effect/TypingEffect";
+import {useTranslation} from "react-i18next";
 
 const Example = () => {
+
     return (
         <div className="z-1">
             <HorizontalScrollCarousel />
@@ -62,6 +64,8 @@ const HorizontalScrollCarousel = () => {
 };
 
 const Card = ({card}) => {
+    const { t,i18n } = useTranslation();
+
 
     return (
         <div
@@ -84,7 +88,7 @@ const Card = ({card}) => {
                         <div className="h-auto w-2/3  flex flex-col justify-between items-center">
                             <div className="h-auto w-full">
                                 <h1 className="text-white w-4/5">
-                                    <TypingEffect text={card.text} />
+                                    <TypingEffect text={t(card.text)} />
                                 </h1>
                             </div>
                         </div>
@@ -102,57 +106,57 @@ const Card = ({card}) => {
 const cards = [
     {
         url: image1,
-        text: 'Website builder Bot',
+        text: 'bot1',
         id: 1,
     },
     {
         url: image2,
-        text: 'The Sniper Bot',
+        text: 'bot2',
         id: 2,
     },
     {
         url: image3,
-        text: "Smart Contract Deployer Bot ",
+        text: "bot3",
         id: 3,
     },
     {
         url: image4,
-        text: " Homma Prediction AI Bot",
+        text: "bot4",
         id: 4,
     },
     {
         url: image5,
-        text: "NSFW Image Generator AI Bot",
+        text: "bot5",
         id: 5,
     },
     {
         url: image6,
-        text: "Image Generator AI Bot",
+        text: "bot6",
         id: 6,
     },
     {
         url: image7,
-        text: "Meme Generator  AI Bot",
+        text: "bot7",
         id: 7,
     },
     {
         url: image8,
-        text: "Face Swap AI Bot",
+        text: "bot8",
         id: 8,
     },
     {
         url: image9,
-        text: "AI DEV Voice Bot",
+        text: "bot9",
         id: 9,
     },
     {
         url: image10,
-        text: "AI DEV Chatbot",
+        text: "bot10",
         id: 10,
     },
     {
         url: image11,
-        text: "AND MANY MORE",
+        text: "bot11",
         id: 11,
     },
 ];
