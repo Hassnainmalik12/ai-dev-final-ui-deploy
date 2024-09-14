@@ -4,8 +4,10 @@ import  ethscan from '../../../images/btn-ic-ethscan.png'
 import  dex from '../../../images/btn-ic-dex.png'
 import  uniswap from '../../../images/btn-ic-uniswap.png'
 import  tickIcon from '../../../images/tickIcon.png'
+import {useTranslation} from "react-i18next";
 
 const Tokonomics = () => {
+    const { t,i18n } = useTranslation();
     const [isCopied, setIsCopied] = useState(false);
 
     const copyCodeToClipboard = () => {
@@ -23,18 +25,18 @@ const Tokonomics = () => {
         <div className={" h-full w-full flex flex-col "}>
             <div className={"tokonomics-first-section-height-res h-[50%]  w-full flex justify-center items-center"}>
                 <div className={"tokonomics-first-section-width-res h-[75%] py-3 w-[30%]  flex flex-col justify-between items-center"}>
-                    <h1 className={"tokonomics-text   font-bold capitalize"}>tokenomics</h1>
+                    <h1 className={"tokonomics-text   font-bold capitalize"}>{t('tokenomics-title')}</h1>
                     <div className={"h-auto w-full first-buttons  flex justify-between"}>
                         <div className={"flex first-buttons-inner w-[50%] justify-around "}>
                             <div
                                 className={"tokonomics-button-per-res percentage-section  w-[45%] justify-center items-center flex flex-col"}>
                                 <h1>10m</h1>
-                                <h6 className={"text-sm"}>token supply</h6>
+                                <h6 className={"text-sm"}>{t('tokenomics-smallBox1')}</h6>
                             </div>
                             <div
                                 className={"tokonomics-button-per-res percentage-section  w-[45%] justify-center items-center flex flex-col"}>
                                 <h1>5%</h1>
-                                <h6 className={"text-sm"}>buy/sell tax</h6>
+                                <h6 className={"text-sm"}>{t('tokenomics-smallBox2')}</h6>
                             </div>
 
                         </div>
@@ -42,12 +44,12 @@ const Tokonomics = () => {
                             <div
                                 className={"tokonomics-button-per-res percentage-section  w-[45%] justify-center items-center flex flex-col"}>
                                 <h1>3%</h1>
-                                <h6 className={"text-sm"}>Max Wallet</h6>
+                                <h6 className={"text-sm"}>{t('tokenomics-smallBox3')}</h6>
                             </div>
                             <div
                                 className={"tokonomics-button-per-res percentage-section  w-[45%] justify-center items-center flex flex-col"}>
                                 <h1>0%</h1>
-                                <h6 className={"text-sm"}>Transfer</h6>
+                                <h6 className={"text-sm"}>{t('tokenomics-smallBox4')}</h6>
                             </div>
                         </div>
                     </div>
@@ -61,12 +63,12 @@ const Tokonomics = () => {
                         <div className={"second-button-res-inner flex  justify-around w-[50%]"}>
                             <div
                                 className={"percentage-section-with-border  w-[45%]  flex justify-center items-center"}>
-                                <h1 className={"text-center capitalize contract-renounced-res"}>contract renounced </h1>
+                                <h1 className={"text-center capitalize contract-renounced-res"}>{t('tokenomics-bigBox1Title')}</h1>
                             </div>
                             <div
                                 className={"percentage-section-with-border  w-[45%] justify-center items-center flex flex-col gap-3"}>
-                                <h1>2.5 years </h1>
-                                <h6 className={"text-sm"}>Liquidity Locked</h6>
+                                <h1>{t('tokenomics-bigBox2Title')}</h1>
+                                <h6 className={"text-sm"}>{t('tokenomics-bigBox2Description')}</h6>
                             </div>
                         </div>
 
@@ -74,13 +76,13 @@ const Tokonomics = () => {
 
                         <div
                             className={"percentage-section-with-border w-[45%] justify-center items-center flex flex-col gap-3"}>
-                            <h1>10M Supply</h1>
-                            <h6 className={"text-sm text-center"}>100% Tokens in Circulation</h6>
+                            <h1>{t('tokenomics-bigBox3Title')}</h1>
+                            <h6 className={"text-sm text-center"}>{t('tokenomics-bigBox3Description')}</h6>
                         </div>
                         <div
                             className={"percentage-section-with-border tax-section-res w-[45%] justify-center items-center flex flex-col gap-3"}>
-                            <h1>Taxes</h1>
-                            <h6 className={"text-center extra-small-text text-lg"}> Development, Marketing, Listings, Buybacks, Web2</h6>
+                            <h1>{t('tokenomics-bigBox4Title')}</h1>
+                            <h6 className={"text-center extra-small-text text-lg"}>{t('tokenomics-bigBox4Description')}</h6>
                         </div>
                         </div>
                     </div>
@@ -92,7 +94,7 @@ const Tokonomics = () => {
 
             <div className={"contract-adres-res h-auto  w-full  flex flex-col mb-5"}>
                 <div className={"contract-address-line w-[75%] mt-2"}>
-                    <h1 className={"text-white text-center contract-address mb-2"}>Contract Address</h1>
+                    <h1 className={"text-white text-center contract-address mb-2"}>{t('contractAddress')}</h1>
                 </div>
                 <div className={"parent-div  h-auto w-full flex justify-center items-center  gap-5"}>
                     <div className={" copy-text-border child-div-copy  flex gap-4 h-16 w-auto bg-gray-800    justify-center items-center px-5 rounded-full"}>

@@ -7,7 +7,10 @@ import social3 from '../../../images/social-03.png';
 import social4 from '../../../images/social-04.png';
 import social5 from '../../../images/social-05.png';
 import social6 from '../../../images/social-06.png';
+import {useTranslation} from "react-i18next";
 const Trade = ({ sectiontopRef}) => {
+    const { t,i18n } = useTranslation();
+
     const scrollToSection = (ref) => {
         ref.current.scrollIntoView({ behavior: 'smooth' });
     };
@@ -20,11 +23,7 @@ const Trade = ({ sectiontopRef}) => {
 
                     <marquee className={"custom-marquee"} width="100%" direction="left" height="225px"
                              scrollamount="13">
-                        <h1> Website AI x Sniper AI x Token
-                            Deployer
-                            x AI face Swap x Voice
-                            AI x
-                            MEME Generator x Uncensored AI</h1>
+                        <h1>{t('marquee-upper-h')}</h1>
                     </marquee>
 
 
@@ -51,11 +50,7 @@ const Trade = ({ sectiontopRef}) => {
 
                     <marquee className={"custom-marquee"} width="100%" direction="right" height="225px"
                              scrollamount="13">
-                        <h1> Website AI x Sniper AI x Token
-                            Deployer
-                            x AI face Swap x Voice
-                            AI x
-                            MEME Generator x Uncensored AI</h1>
+                        <h1>{t('marquee-upper-h')}</h1>
                     </marquee>
                 </div>
             </div>
@@ -99,17 +94,14 @@ const Trade = ({ sectiontopRef}) => {
 
                         </div>
                         <div className={"trade-last-contact h-[75%] w-[33%]  flex flex-col justify-evenly items-center"}>
-                                <h1 className={"trade-contact-sec text-center w-[70%] justify-end"}>You can email <u className={"hover:cursor-pointer"}>support@dev.ai</u> to provide feedback for support requests.</h1>
-                            <p className={"text-start px-4 w-full"}><u>Acceptable Use
-                                Policy</u> <u>Cookie
-                                Policy</u> <u>Privacy Policy</u> <u>Terms of
-                                Service</u></p>
+                                <h1 className={"trade-contact-sec text-center w-[70%] justify-end"}>{t('trade-description1')} <u className={"hover:cursor-pointer"}>{t('trade-description1-u')}</u> {t('trade-description1-rem')}</h1>
+                            <p className={"text-start px-4 w-full"}><u>{t('trade-link1')}</u> <u>{t('trade-link2')}</u> <u>{t('trade-link3')}</u> <u>{t('trade-link4')}</u></p>
 
                         </div>
                     </div>
                 </div>
                 <div className={"copyright h-[40%] w-full px-5 main-color "}>
-                    <h1 className={"copyright-text pt-4 text-2xl"}>© DEV AI 2024</h1>
+                    <h1 className={"copyright-text pt-4 text-2xl"}>{t('trade-copyright')}</h1>
                 </div>
             </div>
         </div>

@@ -12,7 +12,10 @@ import image8 from '../../../images/Ai Dev Bot Face Swap.gif';
 import image9 from '../../../images/Ai Dev Bot Voice AI.gif';
 import image10 from '../../../images/Ai Dev Bot Random.gif';
 import image11 from '../../../images/Ai Dev Bot Rocket.gif';
+import {useTranslation} from "react-i18next";
 const TierSection = () => {
+    const { t,i18n } = useTranslation();
+
     return (
         <div className={"tier-section-main  custom-height-px-1600   w-[60%] flex "} >
             {/*left section 40%*/}
@@ -21,7 +24,7 @@ const TierSection = () => {
                 <div className={"flex justify-center bg-white items-center relative"}>
                     <div
                         className={"head-left-feature-section w-2/3 absolute h-44 rounded-xl bg-yellow-300 flex justify-center items-center"}>
-                        <h1 className={" custom-text-green feature-text-res font-bold text-3xl uppercase"}>features</h1>
+                        <h1 className={" custom-text-green feature-text-res font-bold text-3xl uppercase"}>{t('features')}</h1>
 
                     </div>
                 </div>
@@ -33,7 +36,7 @@ const TierSection = () => {
                         <img src={image1} alt=""/>
                     </div>
                     <div className={"h-12 w-full  flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}>website builder bot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}>{t('tier-bot1')}</h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -41,7 +44,7 @@ const TierSection = () => {
                         <img src={image2} alt=""/>
                     </div>
                     <div className={"h-12 w-full flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Sniper Bot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot2')}</h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -49,7 +52,7 @@ const TierSection = () => {
                         <img src={image3} alt=""/>
                     </div>
                     <div className={"h-12 w-full  flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Smart Contract Deployer Bot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot3')}</h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -57,8 +60,7 @@ const TierSection = () => {
                         <img src={image4} alt=""/>
                     </div>
                     <div className={"h-12 w-full flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}>Homma Prediction AI Bot (Price
-                            Prediction)</h1>
+                        <h1 className={"tier-section-left-text capitalize"}>{t('tier-bot4')}</h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -66,7 +68,7 @@ const TierSection = () => {
                         <img src={image5} alt=""/>
                     </div>
                     <div className={"h-12 w-full  flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> NSFW Image Generator AI Bot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot5')}</h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -74,7 +76,7 @@ const TierSection = () => {
                         <img src={image6} alt=""/>
                     </div>
                     <div className={"h-12 w-full  flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Image Generator AI Bot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot6')}</h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -82,7 +84,7 @@ const TierSection = () => {
                         <img src={image7} alt=""/>
                     </div>
                     <div className={"h-12 w-full flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Meme Generator AI Bot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot7')}</h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -90,7 +92,7 @@ const TierSection = () => {
                         <img src={image8} alt=""/>
                     </div>
                     <div className={"h-12 w-full flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> AI Face Swap Bot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot8')}</h1>
                     </div>
                 </div>
 
@@ -99,7 +101,7 @@ const TierSection = () => {
                         <img src={image9} alt=""/>
                     </div>
                     <div className={"h-12 w-full flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> AI DEV Voice Bot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot9')}</h1>
                     </div>
                 </div>
 
@@ -108,7 +110,7 @@ const TierSection = () => {
                         <img src={image10} alt=""/>
                     </div>
                     <div className={"h-12 w-full  flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}>AI DEV Chatbot</h1>
+                        <h1 className={"tier-section-left-text capitalize"}>{t('tier-bot10')}</h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -116,8 +118,8 @@ const TierSection = () => {
                         <img src={image1} alt=""/>
                     </div>
                     <div className={"h-12 w-full  flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Flash Loan Arbitrage Bot <span
-                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>in development</span></h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot11')}<span
+                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>{t('tooltip')}</span></h1>
                     </div>
                 </div>
 
@@ -126,8 +128,8 @@ const TierSection = () => {
                         <img src={image1} alt=""/>
                     </div>
                     <div className={"h-12 w-full flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Coin Lending Bot <span
-                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>in development</span></h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot12')}<span
+                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>{t('tooltip')}</span></h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -135,8 +137,8 @@ const TierSection = () => {
                         <img src={image1} alt=""/>
                     </div>
                     <div className={"h-12 w-full  flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Sandwich Bot <span
-                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2  capitalize"}>in development</span></h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot13')} <span
+                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2  capitalize"}>{t('tooltip')}</span></h1>
                     </div>
                 </div>
                 <div className={"text-heading-gap-res h-24 w-full  justify-center items-center flex gap-5"}>
@@ -144,8 +146,8 @@ const TierSection = () => {
                         <img src={image11} alt=""/>
                     </div>
                     <div className={"h-12 w-full flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> MEV Bot <span
-                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>in development</span></h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot14')}<span
+                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>{t('tooltip')}</span></h1>
                     </div>
                 </div>
 
@@ -154,8 +156,8 @@ const TierSection = () => {
                         <img src={image1} alt=""/>
                     </div>
                     <div className={"h-12 w-full  flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Grid Trading Bot <span
-                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>in development</span></h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot15')} <span
+                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>{t('tooltip')}</span></h1>
                     </div>
                 </div>
 
@@ -164,8 +166,8 @@ const TierSection = () => {
                         <img src={image11} alt=""/>
                     </div>
                     <div className={"h-12 w-full flex items-center"}>
-                        <h1 className={"tier-section-left-text capitalize"}> Signal Bot <span
-                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>in development</span></h1>
+                        <h1 className={"tier-section-left-text capitalize"}> {t('tier-bot16')} <span
+                            className={"in-development-btn-res bg-green-800 rounded-3xl px-2 capitalize"}>{t('tooltip')}</span></h1>
                     </div>
                 </div>
 
@@ -178,8 +180,8 @@ const TierSection = () => {
                     <div
                         className={"head-right-first-section bg-yellow-500 w-full h-44 absolute rounded-lg flex justify-center flex-col items-center"}
                         style={{top: '-80px'}}>
-                        <h1 className={"tier-text-head-res custom-text-green  font-bold text-3xl uppercase"}><span className={"text-white font-normal"}>*</span>FREE</h1>
-                        <h1 className={"tier-text-head-des-res custom-text-green  text-sm "}>Trial 28 Days</h1>
+                        <h1 className={"tier-text-head-res custom-text-green  font-bold text-3xl uppercase"}><span className={"text-white font-normal"}>*</span>{t('free')}</h1>
+                        <h1 className={"tier-text-head-des-res custom-text-green  text-sm "}>{t('trial')}</h1>
                     </div>
                     <div className={"h-24 mt- w-full "}>
                     </div>
@@ -286,7 +288,7 @@ const TierSection = () => {
                     <div
                         className={"head-right-second-section w-full tier-box h-36 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
                         style={{top: '-80px'}}>
-                        <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 1</h1>
+                        <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*{t('tier1')}</h1>
 
                     </div>
                     <div className={"extra-height h-24 w-full "}></div>
@@ -396,7 +398,7 @@ const TierSection = () => {
                     <div
                         className={"head-right-third-section bg-green-300 w-full h-36 tier-box  absolute rounded-lg flex justify-center flex-col items-center"}
                         style={{top: '-80px'}}>
-                        <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 2</h1>
+                        <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*{t('tier2')}</h1>
 
                     </div>
                         <div className={" h-20 w-full mt-2"}></div>
@@ -493,7 +495,7 @@ const TierSection = () => {
                     <div
                         className={"head-right-fourth-section w-full tier-box h-28 bg-yellow-500 absolute rounded-lg flex justify-center flex-col items-center"}
                         style={{top: '-80px'}}>
-                        <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*Tier 3</h1>
+                        <h1 className={"tier-text-head-res  text-white font-bold text-3xl uppercase"}>*{t('tier3')}</h1>
 
                     </div>
                         <div className={"extra-height h-24 w-full"} style={{paddingTop:'-10px'}}></div>

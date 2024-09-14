@@ -21,6 +21,7 @@ import a12 from '../../../images/a12.png';
 import a13 from '../../../images/a13.png';
 import rightArrow from "../../../images/rightArrow.png";
 import leftArrow from "../../../images/leftArrow.png";
+import {useTranslation} from "react-i18next";
 
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
@@ -61,6 +62,8 @@ function SamplePrevArrow(props) {
 }
 
 const RoadmapSlider = () => {
+    const { t,i18n } = useTranslation();
+
 
     const settings = {
         dots: true,
@@ -116,7 +119,7 @@ const RoadmapSlider = () => {
 
     return (
         <>
-        <h1 className={"roadmap-heading font-bold text-center capitalize mb-16 "}> roadmap</h1>
+        <h1 className={"roadmap-heading font-bold text-center capitalize mb-16 "}>{t('roadmap')}</h1>
     <div className="roadmap-slider-container px-7 flex flex-col">
 
 
@@ -125,16 +128,14 @@ const RoadmapSlider = () => {
                 <div className={" roadmap-slider-card  w-96 h-full bg-gray-800 card-radius px-7 flex flex-col py-2"}>
                     <div className={"h-[15%] w-full   flex justify-between items-center px-3"}>
                         <div className={"h-1/2 w-[40%]"}>
-                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>phase
-                                1</h1>
+                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>{t('phase1')}</h1>
                         </div>
                         <div className={"h-1/2 w-[40%] flex items-center justify-center"}>
-                            <h1 className={"roadmap-status-button text-white text-lg  px-3 rounded-xl flex justify-center items-center"}>Development</h1>
+                            <h1 className={"roadmap-status-button text-white text-lg  px-3 rounded-xl flex justify-center items-center"}>{t('phase-1-development')}</h1>
                         </div>
                     </div>
                     <div className={"h-[20%] w-full  flex  items-center"}>
-                        <h1 className={"roadmap-card-heading capitalize text-white w-3/4"}> Establishment and Initial
-                            Development</h1>
+                        <h1 className={"roadmap-card-heading capitalize text-white w-3/4"}> {t('phase-1-title')}</h1>
                     </div>
 
 
@@ -144,8 +145,7 @@ const RoadmapSlider = () => {
                                 <img src={checkPinkAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex text-sm items-center h-full"}> 1. Website Builder
-                                    Bot</h1>
+                                <h1 className={"text-white flex text-sm items-center h-full"}> {t('phase-1-list1')}</h1>
                             </div>
                         </div>
                         <div className={"w-full flex gap-2"}>
@@ -154,7 +154,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    2. Sniper Bot
+                                    {t('phase-1-list2')}
                                 </h1>
                             </div>
                         </div>
@@ -164,8 +164,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full "}>
                                 <h1 className={"text-white text-sm flex  items-center h-full"}>
-                                    3. Smart Contract
-                                    Deployer Bot
+                                    {t('phase-1-list3')}
                                 </h1>
                             </div>
                         </div>
@@ -174,8 +173,8 @@ const RoadmapSlider = () => {
                                 <img src={checkPinkAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex  items-center h-full text-sm"}> 4. Homma Prediction AI
-                                    Bot (price prediction)
+                                <h1 className={"text-white flex  items-center h-full text-sm"}> {t('phase-1-list4')}
+
                                 </h1>
                             </div>
                         </div>
@@ -185,8 +184,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    5. NSFW Image Generator
-                                    AI Bot
+                                    {t('phase-1-list5')}
                                 </h1>
                             </div>
                         </div>
@@ -196,8 +194,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    6. Image Generator AI
-                                    Bot
+                                    {t('phase-1-list6')}
                                 </h1>
                             </div>
                         </div>
@@ -207,8 +204,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    7. Meme Generator AI
-                                    Bot
+                                    {t('phase-1-list7')}
                                 </h1>
                             </div>
                         </div>
@@ -218,7 +214,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    8. AI Face Swap Bot
+                                    {t('phase-1-list8')}
                                 </h1>
                             </div>
                         </div>
@@ -228,7 +224,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    9. AI DEV Voice Bot
+                                    {t('phase-1-list9')}
                                 </h1>
                             </div>
                         </div>
@@ -238,7 +234,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    10. AI DEV Chatbot
+                                    {t('phase-1-list10')}
                                 </h1>
                             </div>
                         </div>
@@ -252,16 +248,14 @@ const RoadmapSlider = () => {
                 <div className={"roadmap-slider-card w-96 h-full bg-gray-800 card-radius px-7 flex flex-col py-2"}>
                     <div className={"h-[15%] w-full  flex justify-between items-center px-3"}>
                         <div className={"h-1/2 w-[40%] "}>
-                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>phase
-                                2</h1>
+                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>{t('phase2')}</h1>
                         </div>
                         <div className={"h-1/2 w-[40%] flex items-center justify-center"}>
-                            <h1 className={"roadmap-status-button text-white text-lg  px-3 rounded-xl flex justify-center items-center"}>Completed</h1>
+                            <h1 className={"roadmap-status-button text-white text-lg  px-3 rounded-xl flex justify-center items-center"}>{t('phase-2-completed')}</h1>
                         </div>
                     </div>
                     <div className={"h-[20%] w-full  flex  items-center"}>
-                        <h1 className={"roadmap-card-heading capitalize text-white w-3/4"}>Enhancement and
-                            Optimization</h1>
+                        <h1 className={"roadmap-card-heading capitalize text-white w-3/4"}>{t('phase-2-title')}</h1>
                     </div>
 
 
@@ -271,9 +265,7 @@ const RoadmapSlider = () => {
                                 <img src={checkPinkAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex text-sm items-center h-full"}> 1. Feature
-                                    Enhancements
-                                    for all Bots</h1>
+                                <h1 className={"text-white flex text-sm items-center h-full"}>{t('phase-2-list1')}</h1>
                             </div>
                         </div>
                         <div className={"w-full flex gap-2"}>
@@ -282,8 +274,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    2. User Interface and
-                                    Experience Improvements
+                                    {t('phase-2-list2')}
                                 </h1>
                             </div>
                         </div>
@@ -293,8 +284,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full "}>
                                 <h1 className={"text-white text-sm flex  items-center h-full"}>
-                                    3. Beta Testing and
-                                    Feedback Integration
+                                    {t('phase-2-list3')}
                                 </h1>
                             </div>
                         </div>
@@ -303,8 +293,7 @@ const RoadmapSlider = () => {
                                 <img src={checkPinkAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex  items-center h-full text-sm"}>4. Web3 Support and
-                                    Partnerships
+                                <h1 className={"text-white flex  items-center h-full text-sm"}>{t('phase-2-list4')}
                                 </h1>
                             </div>
                         </div>
@@ -314,9 +303,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    5. AI Model Training
-                                    and Performance
-                                    Optimization
+                                    {t('phase-2-list5')}
                                 </h1>
                             </div>
                         </div>
@@ -330,15 +317,14 @@ const RoadmapSlider = () => {
                 <div className={"roadmap-slider-card h-full bg-gray-800 card-radius px-7 flex flex-col py-2"}>
                     <div className={"h-[15%] w-full  flex justify-between items-center"}>
                         <div className={"h-1/2 w-[40%] "}>
-                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>phase
-                                3</h1>
+                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>{t('phase3')}</h1>
                         </div>
                         <div className={"h-1/2 w-auto flex items-center justify-center"}>
-                            <h1 className={"roadmap-status-button text-white text-lg  px-3 rounded-xl flex justify-center items-center"}>In Progress</h1>
+                            <h1 className={"roadmap-status-button text-white text-lg  px-3 rounded-xl flex justify-center items-center"}>{t('phase-3-in-prog')}</h1>
                         </div>
                     </div>
                     <div className={"h-[20%] w-full   flex  items-center"}>
-                        <h1 className={"roadmap-card-heading capitalize text-white "}>Launch and Expansion</h1>
+                        <h1 className={"roadmap-card-heading capitalize text-white "}>{t('phase-3-title')}</h1>
                     </div>
 
 
@@ -348,8 +334,7 @@ const RoadmapSlider = () => {
                                 <img src={checkPinkAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex text-sm items-center h-full"}> 1. Official Launch of
-                                    All Developed Bots</h1>
+                                <h1 className={"text-white flex text-sm items-center h-full"}> {t('phase-3-list1')}</h1>
                             </div>
                         </div>
                         <div className={"w-full flex gap-2"}>
@@ -358,8 +343,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    2. Token launching &
-                                    DEX Listing
+                                    {t('phase-3-list2')}
                                 </h1>
                             </div>
                         </div>
@@ -369,8 +353,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full "}>
                                 <h1 className={"text-white text-sm flex  items-center h-full"}>
-                                    3. Marketing and
-                                    Community Building
+                                    {t('phase-3-list3')}
                                 </h1>
                             </div>
                         </div>
@@ -379,9 +362,7 @@ const RoadmapSlider = () => {
                                 <img src={checkPinkAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex  items-center h-full text-sm"}>4. Strategic
-                                    Partnerships and
-                                    Integrations
+                                <h1 className={"text-white flex  items-center h-full text-sm"}>{t('phase-3-list4')}
                                 </h1>
                             </div>
                         </div>
@@ -391,8 +372,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    5. User Onboarding and
-                                    Support Systems
+                                    {t('phase-3-list5')}
                                 </h1>
                             </div>
                         </div>
@@ -402,10 +382,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    6. Introduction of
-                                    Subscription and
-                                    Token-Based Access
-                                    Tiers
+                                    {t('phase-3-list6')}
                                 </h1>
                             </div>
                         </div>
@@ -420,16 +397,14 @@ const RoadmapSlider = () => {
                 <div className={"roadmap-slider-card w-96 h-full bg-gray-800 card-radius px-7 flex flex-col py-2"}>
                     <div className={"h-[15%] w-full  flex justify-between items-center px-3"}>
                         <div className={"h-1/2 w-[40%] "}>
-                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>phase
-                                4</h1>
+                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>{t('phase4')}</h1>
                         </div>
                         <div className={"h-1/2 w-[40%] flex items-center justify-center"}>
-                            <h1 className={"roadmap-status-button text-white text-lg capitalize  px-3 rounded-xl flex justify-center items-center"}>Upcoming</h1>
+                            <h1 className={"roadmap-status-button text-white text-lg capitalize  px-3 rounded-xl flex justify-center items-center"}>{t('phase-4-upcoming')}</h1>
                         </div>
                     </div>
                     <div className={"h-[20%] w-full  flex  items-center"}>
-                        <h1 className={"roadmap-card-heading capitalize text-white"}>Future Development & Cex
-                            Listing
+                        <h1 className={"roadmap-card-heading capitalize text-white"}>{t('phase-4-title')}
                         </h1>
                     </div>
 
@@ -440,8 +415,7 @@ const RoadmapSlider = () => {
                                 <img src={checkPinkAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex text-sm items-center h-full"}>  1. Flash Loan Arbitrage
-                                    Bot</h1>
+                                <h1 className={"text-white flex text-sm items-center h-full"}>  {t('phase-4-list1')}</h1>
                             </div>
                         </div>
                         <div className={"w-full flex gap-1"}>
@@ -450,7 +424,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    2. Coin Lending Bot
+                                    {t('phase-4-list2')}
                                 </h1>
                             </div>
                         </div>
@@ -460,7 +434,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full "}>
                                 <h1 className={"text-white text-sm flex  items-center h-full"}>
-                                    3. Sandwich Bot
+                                    {t('phase-4-list3')}
                                 </h1>
                             </div>
                         </div>
@@ -469,7 +443,7 @@ const RoadmapSlider = () => {
                                 <img src={nocheckAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex  items-center h-full text-sm"}>4. MEV Bot
+                                <h1 className={"text-white flex  items-center h-full text-sm"}>{t('phase-4-list4')}
                                 </h1>
                             </div>
                         </div>
@@ -479,7 +453,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    5. Grid Trading Bot
+                                    {t('phase-4-list5')}
                                 </h1>
                             </div>
                         </div>
@@ -489,7 +463,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    6. Signal Bot
+                                    {t('phase-4-list6')}
                                 </h1>
                             </div>
                         </div>
@@ -499,8 +473,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    7. Advanced Sentiment
-                                    Analysis Integration
+                                    {t('phase-4-list7')}
                                 </h1>
                             </div>
                         </div>
@@ -510,8 +483,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    8. Staking DApp
-                                    Development
+                                    {t('phase-4-list8')}
                                 </h1>
                             </div>
                         </div>
@@ -521,7 +493,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    9. Cex Listing
+                                    {t('phase-4-list9')}
                                 </h1>
                             </div>
                         </div>
@@ -535,16 +507,14 @@ const RoadmapSlider = () => {
                 <div className={"roadmap-slider-card w-96 h-full bg-gray-800 card-radius px-7 flex flex-col py-2"}>
                     <div className={"h-[15%] w-full  flex justify-between items-center px-3"}>
                         <div className={"h-1/2 w-[40%] "}>
-                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>phase
-                                5</h1>
+                            <h1 className={"roadmap-phase-2-text uppercase text-white flex justify-center items-center h-full"}>{t('phase5')}</h1>
                         </div>
                         <div className={"h-1/2 w-[40%] flex items-center justify-center"}>
-                            <h1 className={"roadmap-status-button text-white text-lg  px-3 rounded-xl flex justify-center items-center text-blur"}>Planned</h1>
+                            <h1 className={"roadmap-status-button text-white text-lg  px-3 rounded-xl flex justify-center items-center text-blur"}>{t('phase-5-planned')}</h1>
                         </div>
                     </div>
                     <div className={"h-[20%] w-full  flex  items-center"}>
-                        <h1 className={"roadmap-card-heading capitalize text-white "}>Decentralized Computing
-                            and Expansion</h1>
+                        <h1 className={"roadmap-card-heading capitalize text-white "}>{t('phase-5-title')}</h1>
                     </div>
 
 
@@ -554,8 +524,7 @@ const RoadmapSlider = () => {
                                 <img src={nocheckAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex text-sm items-center h-full"}> 1. Integration of
-                                    Decentralized GPU Power</h1>
+                                <h1 className={"text-white flex text-sm items-center h-full"}> {t('phase-5-list1')}</h1>
                             </div>
                         </div>
                         <div className={"w-full flex gap-1"}>
@@ -564,8 +533,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    2. Expansion of AI DEV
-                                    Ecosystem
+                                    {t('phase-5-list2')}
                                 </h1>
                             </div>
                         </div>
@@ -575,8 +543,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full "}>
                                 <h1 className={"text-white text-sm flex  items-center h-full"}>
-                                    3. Global Adoption and
-                                    Community Growth
+                                    {t('phase-5-list3')}
                                 </h1>
                             </div>
                         </div>
@@ -585,8 +552,8 @@ const RoadmapSlider = () => {
                                 <img src={checkPinkAvatar} alt="" className={"w-1/2"}/>
                             </div>
                             <div className={"h-auto w-full "}>
-                                <h1 className={"text-white flex  items-center h-full text-sm"}> 4. Revenue Sharing and
-                                    Incentive Programs
+                                <h1 className={"text-white flex  items-center h-full text-sm"}>
+                                    {t('phase-5-list4')}
                                 </h1>
                             </div>
                         </div>
@@ -596,8 +563,7 @@ const RoadmapSlider = () => {
                             </div>
                             <div className={"h-auto w-full  "}>
                                 <h1 className={"text-white flex text-sm items-center h-full"}>
-                                    5. Long-Term Vision and
-                                    Sustainability
+                                    {t('phase-5-list5')}
                                 </h1>
                             </div>
                         </div>
@@ -611,8 +577,8 @@ const RoadmapSlider = () => {
 
         </Slider>
         <div className={"roadmap-button  text-white h-auto  flex justify-center  gap-5 py-12 "}>
-            <h1 className={"px-5 py-3 whitepaper rounded-full"}><p>whitepaper</p></h1>
-            <h1 className={"px-5 py-3 view-in-full-roadmap rounded-full flex justify-center items-center"}><p>view in full roadmap</p></h1>
+            <h1 className={"px-5 py-3 whitepaper rounded-full"}><p>{t('whitepaper-btn')}</p></h1>
+            <h1 className={"px-5 py-3 view-in-full-roadmap rounded-full flex justify-center items-center"}><p>{t('view-btn')}</p></h1>
         </div>
     </div>
         </>
