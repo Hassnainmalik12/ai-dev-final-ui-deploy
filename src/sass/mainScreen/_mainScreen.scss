@@ -380,7 +380,11 @@ line-height: 0.5
 .hidden{
   display: none;
 }
-
+.country-select-container {
+  width: 150px;
+  margin: 0 auto;
+  padding-top: 50px; /* Default padding */
+}
 
 //==========================================
 
@@ -542,7 +546,9 @@ line-height: 0.5
   }
 
   .logo-res1{
-    width: 0;
+    //width: 0 !important;
+    overflow: hidden;
+    display: none;
   }
   .chatbot-img{
     //margin-right: 60px;
@@ -577,7 +583,13 @@ line-height: 0.5
     width: 50%;
 
   }
-
+  .country-select-container {
+    padding-top: 0; /* Remove padding on small screens */
+  }
+  .country-select-container input {
+    pointer-events: none; /* Prevent interaction */
+    cursor: default; /* Prevent showing the keyboard */
+  }
 
 
   .ai-dev-media {
@@ -700,14 +712,31 @@ margin-top: 10px;
   .add-button-res{
     width: 0;
   }
-  .mid-a-text-right-res{
-    width: 0;
+  .mid-ai-text-right-res{
+    background-color: black;
+    width: 0 !important;
+  }
+  .ai-text-left-res{
+    width: 1px !important;
+    //background-color: red !important;
+    //z-index: -10;
   }
   .ai-mid-text{
     width: 100% !important;
+    //width: 100%; /* Adjust as needed or set a specific width */
+    overflow-wrap: break-word; /* Break long words onto the next line */
+    word-wrap: break-word; /* For older browsers, use this as well */
+    overflow: hidden; /* Hide overflow content */
+    white-space: normal;
+    //background-color: yellow;
+    //z-index: 200;
     p{
       font-size: 32px !important;
       line-height: 1;
+      overflow-wrap: break-word; /* Break long words onto the next line */
+      word-wrap: break-word; /* For older browsers, use this as well */
+      overflow: hidden; /* Hide overflow content */
+      white-space: normal;
     }
     span{
       font-size: 32px !important;
@@ -718,7 +747,7 @@ margin-top: 10px;
 
   }
   .mid-ai-text-area-res{
-    height: 140vh;
+    height: auto;
   }
   .inverted-border{
     height: 60vh;

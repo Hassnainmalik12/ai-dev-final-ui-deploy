@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
+import CountrySelect from "../../../CountrySelect";
+import {useTranslation} from "react-i18next";
 
 const Sidebar = ({ section1Ref, section2Ref, section3Ref, section4Ref, section5Ref }) => {
     const [isOpen1, setIsOpen1] = useState(false);
@@ -78,6 +80,14 @@ const Sidebar = ({ section1Ref, section2Ref, section3Ref, section4Ref, section5R
     const dropdownVariants = {
         open: { opacity: 1, height: 'auto' },
         closed: { opacity: 0, height: 0 }
+    };
+    const { t,i18n } = useTranslation();
+    console.log(t);
+    const [language, setLanguage] = useState('United State');
+
+    // Callback to update language
+    const handleLanguageChange = (lang) => {
+        setLanguage(lang);
     };
 
     return (
@@ -209,6 +219,15 @@ const Sidebar = ({ section1Ref, section2Ref, section3Ref, section4Ref, section5R
                         <h1 className=" text-white text-center block px-4 py-2 hover:bg-gray-900 rounded-lg">pages</h1>
                     </motion.div>
                 </div>
+
+                <div className={"h-16 w-full flex justify-start items-center mr-8"}>
+                    <div className={"h-12 w-48 "}>
+
+                        <CountrySelect onLanguageChange={handleLanguageChange}/>
+
+                    </div>
+                </div>
+
             </div>
         </div>
     );

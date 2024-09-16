@@ -403,7 +403,7 @@ function App() {
 
                     {/* Mid AI text */}
                     <div
-                        className="mid-ai-text-area main-color mid-ai-text-area-res w-full flex custom-height-50vh justify-center items-center">
+                        className="mid-ai-text-area main-color  mid-ai-text-area-res w-full flex custom-height-50vh justify-center items-center">
                         <div
                             className="ai-text-left ai-text-left-res  flex px-10 bg justify-end items-start custom-width-25 h-full"
                             ref={ref} // Move the ref here if you want to animate this element
@@ -424,7 +424,7 @@ function App() {
                                 {t('mid-ai-text2')}
                             </p>
                         </div>
-                        <div className="ai-right-right mid-a-text-right-res custom-width-25 h-full"></div>
+                        <div className="ai-right-right mid-ai-text-right-res custom-width-25 h-full"></div>
                     </div>
 
                     {/* Test carousel section */}

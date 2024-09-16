@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import preloader from '../../../images/preloader.gif';
 import arrowDown from '../../../images/white-arrow-down .png';
+import {useTranslation} from "react-i18next";
 
 const ChatBot = ({ onClose }) => {
+    const { t } = useTranslation(); // Use useTranslation
+
     const [messages, setMessages] = useState([
-        { text: 'Welcome! How can I assist you today?', type: 'bot' }
+        { text: t('message-text'), type: 'bot' }
     ]);
     const [userInput, setUserInput] = useState('');
 
@@ -64,7 +67,7 @@ const ChatBot = ({ onClose }) => {
             <div className={"flex items-center chatbot-input"}>
                 <input
                     type="text"
-                    placeholder="Type a message..."
+                    placeholder={t('input placeholder')}
                     value={userInput}
                     onChange={handleInputChange}
                     onKeyPress={handleKeyPress}
@@ -74,7 +77,7 @@ const ChatBot = ({ onClose }) => {
                     onClick={handleSend}
                     className={"ml-2 px-4 py-2 bg-gray-700 text-white rounded-lg"}
                 >
-                    Send
+                    {t('send-button')}
                 </button>
             </div>
         </div>

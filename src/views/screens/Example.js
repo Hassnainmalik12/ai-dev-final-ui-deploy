@@ -94,8 +94,8 @@ const Card = ({card}) => {
                         </div>
                         <div className="h-16 w-2/3 mt-10 ">
                             <div className="buttons h-full w-full py-1  flex gap-5 justify-start">
-                                <button className="px-4 rounded-full">Launch</button>
-                                <button className="px-5 rounded-full">Docs</button>
+                                <button className="px-4 rounded-full">{t('launch-button')}</button>
+                                <button className="px-5 rounded-full">{t('docs-button')}</button>
                             </div>
                         </div>
                     </div>
